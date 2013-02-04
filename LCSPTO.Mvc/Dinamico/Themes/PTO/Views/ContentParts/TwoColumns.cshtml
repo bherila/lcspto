@@ -1,0 +1,14 @@
+﻿@model Dinamico.Models.ContentPart
+
+<section id="fluidGridSystem">
+    <div class="container-fluid" style="padding: 0;">
+    <div class="row-fluid columns twocolumns clearfix @((bool)(Content.Data.Separator ?? false) ? "separator" : "")">
+	    <div class="column column1 span6">
+		    @{ Html.DroppableZone("Left").Render(); }
+	    </div>
+	    <div class="column column2 span6">
+		    @{ Html.DroppableZone("Right").Render(); }
+	    </div>
+    </div>
+    </div>
+</section>

@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="@Content.Current.LanguageCode" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="@Content.Current.LanguageCode" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="@Content.Current.LanguageCode" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="@Content.Current.LanguageCode" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="@Content.Current.LanguageCode">
+<!--<![endif]-->
+<head>
+@{ 
+    Html.Resources().JQuery();
+    Html.Resources().JQueryUi();
+    Html.Resources().StyleSheet(Url.Content("~/content/bootstrap.css")); 
+    Html.Resources().StyleSheet(Url.Content("~/content/bootstrap-responsive.css")); 
+    Html.Resources().StyleSheet(Url.Content("~/content/fullcalendar/fullcalendar.css")); 
+    Html.Resources().JavaScript(Url.Content("~/content/fullcalendar/fullcalendar.min.js")); 
+    Html.Resources().JavaScript(Url.Content("~/content/jquery.qtip.js")); 
+    Html.Resources().StyleSheet(Url.Content("~/content/jquery.qtip.css")); 
+    Html.Resources().JavaScript(Url.ThemedContent("~/Scripts/site.js")); 
+
+    Content.PrependDefinition(re =>
+    {
+        re.Tab("Content", "Content");
+        re.PublishedRange().Container("Metadata");
+    });
+
+    RenderSection("head", false);
+}
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,400italic,600italic" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        h1, h2, h3, h4, h5 { font-weight: 600; }
+        h3, h4 { margin-top: 0.5em; }
+
+        body {
+            background: #152022;
+            font-family: "Source Sans Pro", sans-serif;
+        }
+
+        .container {
+            background: #fff;
+            padding: 1em;
+        }
+
+        .logotype { display: block; text-align: right; }
+
+        .nav li {
+            display: block;
+            text-align: right;
+            font-size: 125%;
+        }
+
+        .nav li a { background: #fff; padding: 0.3em; }
+        .nav li a:hover { background: #eee !important; }
+
+        /*#main-nav li:first-child { display: none !important; }*/
+            
+    </style>
+</head>
+<body>
+@{ Html.ControlPanel().Render(); }
+<div class="container">
+    <div class="row">
+        <div class="span2">
+            @using (Content.BeginScope(Content.Traverse.StartPage)) {
+                Content.Render.Image("Logotype").Wrap(@<a 
+                    href="@Content.Current.Item.Url" 
+                    title="@Content.Current.Item.Title" 
+                    class="logotype">@item.RenderContents()</a>).Render();
+            }
+            <hr />
+            <ul class="nav nav-list" id="main-nav">
+            @foreach (var subitem in Content.Traverse.StartPage.Children)
+            {
+                if (subitem.Visible && !string.IsNullOrWhiteSpace(subitem.Title)) {
+                <li class="nav-item"><a href="@subitem.Url">@subitem.Title</a></li>
+                }
+            }
+@*            @Html.Tree(Content.Parse(Request["returnUrl"]) ?? Content.Traverse.StartPage,
+                current: Content.Current.Page, 
+                htmlAttributes: new { id = "menu", @class = "nav-item" },
+                appendCreatorNode: false).ExcludeRoot()*@
+            </ul>
+            <hr />
+            <ul class="nav nav-list">
+                <li><a href="http://www.bernardsboe.com/">BOE Site</a></li>
+                <li><a href="http://www.bernardsboe.com/BernardsBOE/LCS_Info.aspx">LCS Site</a></li>
+            </ul>
+            <hr />
+            <ul class="nav nav-list">
+            @if (User.Identity.IsAuthenticated) {
+                <li><a href="/account/signout/?returnUrl=@Server.UrlEncode(Request.RawUrl)">Sign out</a></li>
+            }
+            else {
+                <li><a href="/N2/Login.aspx?returnUrl=@Server.UrlEncode(Request.RawUrl)">Sign in to access protected resources</a></li>
+            }
+            </ul>
+            <hr />
+        </div>
+        <div class="span10">
+        <div class="container-fluid">
+
+            @RenderSection("page", false)
+
+            @if (IsSectionDefined("main"))
+            {
+                @RenderSection("main")
+            }
+            else
+            { @RenderBody() }
+
+        </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <p>&copy; 2011-@DateTime.Now.Year Liberty Corner PTO and others. All rights reserved. 
+                Designed and developed by <a href="http://www.bherila.net">Ben Herila</a>.@* Powered by <a href="http://www.elixtech.com">Elix CMS</a>.*@</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿@model Dinamico.Models.ContentPart
+@{ Content.Define(re =>
+    {
+        re.Title = "Sub-Navigation";
+
+    });}
+
+
+    @Html.Tree(
+        Content.Traverse.AncestorAtLevel(1),
+        Content.Current.Page,
+        parallelRoot: false, 
+                takeLevels: 2)
+      

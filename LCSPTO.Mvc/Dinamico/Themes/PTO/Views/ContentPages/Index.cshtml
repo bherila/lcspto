@@ -1,0 +1,16 @@
+﻿@model Dinamico.Models.ContentPage
+@{
+    Content.Define(re =>
+    {
+        re.Title = "Content page";
+    });
+}
+@section main {
+<div class="row-fluid">
+    <div class="span12">
+        @Html.Partial("LayoutPartials/Content")
+        @{ Html.DroppableZone("PostContent").Render(); }
+        @{ Html.DroppableZone("BelowContent").Render(); }
+    </div>
+</div>
+}

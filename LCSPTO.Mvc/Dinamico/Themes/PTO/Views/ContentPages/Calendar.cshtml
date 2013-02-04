@@ -1,0 +1,47 @@
+﻿
+@model Dinamico.Models.ContentPage
+@{ 
+    Content.Define(a =>
+        {
+            a.Title = "Calendar Container";
+            a.CheckBox("ShowPast", "Show Past Events");
+            a.CheckBox("ShowFuture", "Show Future Events");
+            a.Add(new N2.Details.EditableDefinitionAttribute
+            {
+                Name = "ListingType",
+                Title = "Listed type",
+                TemplateSelection = true,
+                RemovedTypes = new[] { typeof(N2.Definitions.ISystemNode) },
+                DefaultValue = "ContentPage/Calendar"
+            });
+            a.SortChildren(N2.Definitions.SortBy.PublishedDescending);
+        });
+        
+    
+    /* get all the children that are calendar items */
+    foreach (var child in Model.GetChildren())
+    {
+        if (child is Dinamico.Models.ContentPage)
+        {
+            if (child.TemplateKey == "Calendar") 
+            {
+                
+            }
+            
+            
+            bool isPast = (child.Published ?? DateTime.MinValue) < DateTime.Now;
+            bool isFuture = (child.Published ?? DateTime.MaxValue) > DateTime.Now;
+            if (
+                (
+                    isPast && Content.Data.ShowPast ?? false
+                    || isFuture && Content.Data.ShowFuture ?? false
+                    || !(isPast || isFuture)
+                )
+                && child.IsAuthorized(User)
+               )
+
+                items.Add(child as Dinamico.Models.ContentPage);
+        }
+    }
+    
+}

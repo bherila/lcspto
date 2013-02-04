@@ -1,0 +1,38 @@
+﻿@model LCSPTO.Mvc.FormField
+@{ Content.Define(re =>
+   {
+       re.Title = "Radio";
+       re.Text("Title");
+       re.Text("Name");
+       re.Text("Options").Configure(conf =>
+           {
+               conf.Rows = 6;
+               conf.Columns = 20;
+               conf.TextMode = System.Web.UI.WebControls.TextBoxMode.MultiLine;
+           });
+       re.CheckBox("MultiSelect");
+   });
+
+   bool multiSelect = (Content.Has.MultiSelect ? (bool)Content.Data.MultiSelect : false);
+   string[] options = ((Content.Data.Options as string) ?? string.Empty).Split(new char[] { '\n' },  StringSplitOptions.RemoveEmptyEntries);
+}
+
+<div class="control-group">
+    <label class="control-label" for="@Model.ID">@Content.Data.Title</label>
+    <div class="controls">
+        @if (multiSelect)
+        {
+            foreach (var item in options) 
+            { <label class="checkbox"><input type="checkbox" name="@Content.Data.Name" />@item</label> }
+        }
+        else
+        {
+            foreach (var item in options) 
+            { <label class="radio"><input type="radio" name="@Content.Data.Name" />@item</label> }
+        }
+        @if (!String.IsNullOrEmpty(Content.Data.Help))
+        {
+        <p class="help-inline">@Html.Raw(Content.Data.Help)</p>
+        }
+    </div>
+</div>

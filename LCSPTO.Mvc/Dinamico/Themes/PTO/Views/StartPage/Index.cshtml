@@ -1,0 +1,48 @@
+﻿@model Dinamico.Models.StartPage
+
+@{
+    N2.ContentItem CommitteeList = N2.Find.Items.Where.Title.Like("Committees").Select()[0];
+}
+
+@section page {
+
+    <div class="row-fluid">
+        <div class="span6">
+
+            <!-- image -->
+            @{ Html.RenderPartial("LayoutPartials/PreContent"); }
+
+            <!-- text -->
+	        @Content.Render.Tokens("Text").Wrap(@<div id="content">@item.RenderContents()</div>)
+            
+            <!-- news -->
+            <h3>Latest News</h3>
+            @{ Html.DroppableZone("News").Render(); }
+
+        </div>
+        <div class="span3">
+
+            <!-- events --> 
+            <h3>Upcoming Events</h3>
+            @{ Html.DroppableZone("Events").Render(); }
+
+        </div>
+        <div class="span3">
+            @{ Html.DroppableZone("BeforeCommittees").Render(); }
+            
+            <!-- committees quick links -->
+            <h3>PTO Committees</h3>
+            <ul>
+                @foreach (N2.ContentItem x in CommitteeList.Children) {
+                    if (!String.IsNullOrWhiteSpace(x.Title)) {
+                        <li><a href="@x.Url">@x.Title</a></li>
+                    }
+                }
+            </ul>
+
+            @{ Html.DroppableZone("AfterCommittees").Render(); }
+        </div>
+    </div>
+    <div class="row-fluid">@{ Html.RenderPartial("LayoutPartials/PostContent"); }</div>
+
+}

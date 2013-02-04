@@ -1,0 +1,29 @@
+﻿@model LCSPTO.Mvc.FormField
+@{ Content.Define(re =>
+   {
+       re.Text("Title");
+       re.Text("Name");
+       re.Enum("Mode", typeof(System.Web.UI.WebControls.TextBoxMode))
+           .DefaultValue(System.Web.UI.WebControls.TextBoxMode.SingleLine);
+       //re.Enum("Size", typeof(LCSPTO.Mvc.FormSpan)).DefaultValue(LCSPTO.Mvc.FormSpan.span2);
+       re.Title = "Text Field";
+       re.FreeText("Help", "Help Text");
+   });
+}
+
+<div class="control-group">
+    <label class="control-label" for="@Model.ID">@Content.Data.Title</label>
+    <div class="controls">
+        @if (Content.Has.Mode && Content.Data.Mode == System.Web.UI.WebControls.TextBoxMode.Password)
+            {<input type="password" id="@Model.ID" name="@Content.Data.Name" />}
+        else if (Content.Has.Mode && Content.Data.Mode == System.Web.UI.WebControls.TextBoxMode.MultiLine) 
+            {<textarea id="@Model.ID" name="@Content.Data.Name" rows="5"></textarea>}
+        else 
+            {<input type="text" id="@Model.ID" name="@Content.Data.Name" />}
+
+        @if (!String.IsNullOrEmpty(Content.Data.Help))
+        {
+        <p class="help-inline">@Html.Raw(Content.Data.Help)</p>
+        }
+    </div>
+</div>
