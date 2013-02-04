@@ -1,0 +1,7 @@
+Thumbs.db
+obj
+SearchIndex
+Temp
+SQLite*.dll
+*.old
+*.suo
