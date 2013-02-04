@@ -56,23 +56,23 @@
     </Reference>
     <Reference Include="N2, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Library.2.4.12.5\lib\N2.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Library.2.4.12.9\lib\N2.dll</HintPath>
     </Reference>
     <Reference Include="N2.Extensions, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.2.4.12.5\lib\N2.Extensions.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.2.4.12.9\lib\N2.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="N2.Management, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.2.4.12.5\lib\N2.Management.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.2.4.12.9\lib\N2.Management.dll</HintPath>
     </Reference>
     <Reference Include="N2.Packaging, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.2.4.12.5\lib\N2.Packaging.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.2.4.12.9\lib\N2.Packaging.dll</HintPath>
     </Reference>
     <Reference Include="N2.Razor, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Razor.2.4.12.5\lib\NET40\N2.Razor.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Razor.2.4.12.9\lib\NET40\N2.Razor.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\packages\NHibernate.3.3.2.4000\lib\Net35\NHibernate.dll</HintPath>
@@ -557,18 +557,6 @@
     <Content Include="Dinamico\Themes\Dark\Content\Mood.css" />
     <Content Include="Dinamico\Themes\Dark\Content\Site.css" />
     <Content Include="Dinamico\Themes\Dark\Thumbnail.JPG" />
-    <Content Include="Dinamico\Themes\Default.old\Content\Boilerfoot.css" />
-    <Content Include="Dinamico\Themes\Default.old\Content\Boilerhead.css" />
-    <Content Include="Dinamico\Themes\Default.old\Content\Elements.css" />
-    <Content Include="Dinamico\Themes\Default.old\Content\Features.css" />
-    <Content Include="Dinamico\Themes\Default.old\Content\IE.css" />
-    <Content Include="Dinamico\Themes\Default.old\Content\Layout.css" />
-    <Content Include="Dinamico\Themes\Default.old\Content\Mood.css" />
-    <Content Include="Dinamico\Themes\Default.old\Content\Site.css" />
-    <Content Include="Dinamico\Themes\Default.old\Scripts\jquery.anythingslider.js" />
-    <Content Include="Dinamico\Themes\Default.old\Scripts\jquery.highlight-3.js" />
-    <Content Include="Dinamico\Themes\Default.old\Scripts\Site.js" />
-    <Content Include="Dinamico\Themes\Default.old\Thumbnail.JPG" />
     <Content Include="Dinamico\Themes\Default\Content\Boilerfoot.css" />
     <Content Include="Dinamico\Themes\Default\Content\Boilerhead.css" />
     <Content Include="Dinamico\Themes\Default\Content\Elements.css" />
@@ -602,46 +590,30 @@
     <Content Include="Dinamico\Themes\Terracotta\Thumbnail.JPG" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="google5621e848ab9ebde6.html" />
     <Content Include="N2\history.txt" />
     <Content Include="N2\howto_develop.txt" />
     <Content Include="N2\howto_install.txt" />
     <Content Include="N2\license.txt" />
     <Content Include="N2\n2_readme.txt" />
     <Content Include="N2\upgrade.txt" />
-    <Content Include="Upload\Images\copter.jpg" />
-    <Content Include="Upload\Images\copter_cube.jpg" />
-    <Content Include="Upload\Images\copter_half.jpg" />
-    <Content Include="Upload\Images\copter_icon.jpg" />
-    <Content Include="Upload\Images\copter_original.jpg" />
-    <Content Include="Upload\Images\copter_third.jpg" />
-    <Content Include="Upload\Images\copter_thumb.jpg" />
-    <Content Include="Upload\Images\copter_wide.jpg" />
-    <Content Include="Upload\Images\fronds.jpg" />
-    <Content Include="Upload\Images\fronds_cube.jpg" />
-    <Content Include="Upload\Images\fronds_half.jpg" />
-    <Content Include="Upload\Images\fronds_icon.jpg" />
-    <Content Include="Upload\Images\fronds_original.jpg" />
-    <Content Include="Upload\Images\fronds_third.jpg" />
-    <Content Include="Upload\Images\fronds_thumb.jpg" />
-    <Content Include="Upload\Images\fronds_wide.jpg" />
-    <Content Include="Upload\Images\jetty.jpg" />
-    <Content Include="Upload\Images\jetty_cube.jpg" />
-    <Content Include="Upload\Images\jetty_half.jpg" />
-    <Content Include="Upload\Images\jetty_icon.jpg" />
-    <Content Include="Upload\Images\jetty_original.jpg" />
-    <Content Include="Upload\Images\jetty_third.jpg" />
-    <Content Include="Upload\Images\jetty_thumb.jpg" />
-    <Content Include="Upload\Images\jetty_wide.jpg" />
-    <Content Include="Upload\Images\reeds.jpg" />
-    <Content Include="Upload\Images\reeds_cube.jpg" />
-    <Content Include="Upload\Images\reeds_half.jpg" />
-    <Content Include="Upload\Images\reeds_icon.jpg" />
-    <Content Include="Upload\Images\reeds_original.jpg" />
-    <Content Include="Upload\Images\reeds_third.jpg" />
-    <Content Include="Upload\Images\reeds_thumb.jpg" />
-    <Content Include="Upload\Images\reeds_wide.jpg" />
+    <Content Include="Upload\branding-2.png" />
+    <Content Include="Upload\branding.png" />
+    <Content Include="Upload\children-dancing.png" />
+    <Content Include="Upload\committee-art.png" />
+    <Content Include="Upload\email-art.png" />
+    <Content Include="Upload\gstudents1.jpg" />
+    <Content Include="Upload\gstudents2.jpg" />
+    <Content Include="Upload\gstudents3.jpg" />
+    <Content Include="Upload\gstudents4.jpg" />
+    <Content Include="Upload\gstudents5.jpg" />
+    <Content Include="Upload\LCS_Front.jpg" />
+    <Content Include="Upload\LCS_Sign.jpg" />
+    <Content Include="Upload\LCS_Statue.jpg" />
+    <Content Include="Upload\LCS_Statue_Portrait.jpg" />
     <Content Include="Upload\n2logo.png" />
     <Content Include="Upload\n2logo_white.png" />
+    <Content Include="Upload\skydrive-screenshot.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -658,75 +630,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Dinamico\Themes\Default.old\Views\Web.config" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Test\Index.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\StartPage\NotFound.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\StartPage\Index.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\TOC.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\SubsequentSiblings.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\StartPage.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\Siblings.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\Search.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\Published.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\PreviousSibling.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\PrecedingSiblings.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\Parent.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\NextSibling.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\Google+1.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\FirstChild.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\FacebookLike.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\Detail.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\Children.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\Changes.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\Breadcrumb.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\TokenTemplates\Author.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\Partials\ContentLink.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\Translations.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\TopNavigation.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\Top.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\SubNavigation.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\SiteMap.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\Search.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\PreContent.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\PostContent.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\Logotype.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\LogOn.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\Header.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\Head.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\Footer.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\Content.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\LayoutPartials\BlogContent.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\Error.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Shared\_Layout.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Membership\Register.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Membership\LogOn.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Membership\ChangePasswordSuccess.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\Membership\ChangePassword.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\LanguageIntersection\Index.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\FreeForm\Submitted.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\FreeForm\Index.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\FreeForm\Form.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\YouTube.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\TwoColumns.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\ThreeColumns.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\Teaser.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\Slider.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\Selection.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\Partials\GMapCoordinate.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\Partials\GMapAddress.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\Listing.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\Index.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\ImageGallery.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\ImageFloat.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\GMap.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\GDocViewer.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\ContentTile.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\ContentSlider.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentPages\Selection.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentPages\News.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentPages\Index.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentPages\Container.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\_ViewStart.cshtml" />
     <Content Include="Dinamico\Themes\PTO\Views\ContentPages\Calendar.cshtml" />
     <Content Include="Dinamico\Themes\PTO\Views\ContentPages\Container.cshtml" />
     <Content Include="Dinamico\Themes\PTO\Views\ContentPages\Index.cshtml" />
@@ -741,11 +644,7 @@
     <Content Include="Dinamico\Themes\PTO\Views\StartPage\NotFound.cshtml" />
     <Content Include="Dinamico\Themes\PTO\Views\Web.config" />
     <Content Include="Dinamico\Themes\PTO\Views\_ViewStart.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentPages\Index_RightMargin.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentPages\Index_TwoColumn.cshtml" />
     <Content Include="Dinamico\Themes\PTO\Views\ContentParts\DocViewer.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\Hyperlink.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\Image.cshtml" />
     <Content Include="Content\dhtmlxscheduler\codebase\connector\base_connector.php" />
     <Content Include="Content\dhtmlxscheduler\codebase\connector\combo_connector.php" />
     <Content Include="Content\dhtmlxscheduler\codebase\connector\crosslink_connector.php" />
@@ -787,7 +686,6 @@
     <Content Include="Dinamico\Themes\PTO\Views\FormFields\Index.cshtml" />
     <Content Include="Dinamico\Themes\PTO\Views\FormFields\Radio.cshtml" />
     <Content Include="Dinamico\Themes\PTO\Views\Form\Index.cshtml" />
-    <Content Include="Dinamico\Themes\Default.old\Views\ContentParts\RawHtml.cshtml" />
     <Content Include="N2\web.config" />
     <Content Include="N2\N2.zip" />
     <Content Include="App_Data\n2_host.config" />
@@ -890,6 +788,35 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\PublishProfiles\libertycornerpto.com - Web Deploy.pubxml" />
+    <Content Include="Upload\BattleOfTheBooks-StartUp Packet2012-13.doc" />
+    <Content Include="Upload\docs\2012-13 LCS PTO Pledge Drive Cover Letter FINAL.pdf" />
+    <Content Include="Upload\docs\2012-13 LCS PTO Pledge Form FINAL.pdf" />
+    <Content Include="Upload\docs\Back to school schedule to parents 2012-13.pdf" />
+    <Content Include="Upload\docs\Halloween\Halloween Guidelines 2012.docx" />
+    <Content Include="Upload\docs\Halloween\Halloween RSVP Slip 2012.doc" />
+    <Content Include="Upload\docs\Halloween\LCS Aftercare Permission Slip Halloween 2012.doc" />
+    <Content Include="Upload\docs\LCS PTO Reimbursement Request.doc" />
+    <Content Include="Upload\docs\Pizza_Night_Flyer_2012-2.docx" />
+    <Content Include="Upload\docs\taxexempt2011.pdf" />
+    <Content Include="Upload\docs\Trial.BBW.Permission.Slip2012-13 updated.doc" />
+    <Content Include="Upload\docs\Trial.BBW.Schedule 2012-13 updated.doc" />
+    <Content Include="Upload\flyers-and-forms\school-house-rock-flier-and-order-form\749\LCS PTO School House Rock Flyer.pdf" />
+    <Content Include="Upload\flyers-and-forms\sweetheart-dance-flyer-and-messages\Sweetheart Dance Invitation2013.doc" />
+    <Content Include="Upload\flyers-and-forms\sweetheart-dance-flyer-and-messages\Sweetheart Messages.doc" />
+    <Content Include="Upload\flyers-and-forms\trial-of-the-big-bad-wolf-permission-form\Trial.BBW.Permission.Slip2012-13 updated.doc" />
+    <Content Include="Upload\flyers-and-forms\Trial.BBW.Schedule 2012-13 updated.doc\Trial.BBW.Schedule 2012-13 updated.doc" />
+    <Content Include="Upload\LCS Sleepy Hollow Flier 2.pdf" />
+    <Content Include="Upload\LCS Spiritwear Flyer.pdf" />
+    <Content Include="Upload\news\newsletters\2011-2012-newsletter-archive\LCS PTO Newsletter April 2012v2.pdf" />
+    <Content Include="Upload\news\newsletters\2011-2012-newsletter-archive\LCS PTO Newsletter Feb 2012v4.pdf" />
+    <Content Include="Upload\news\newsletters\2011-2012-newsletter-archive\LCS PTO Newsletter June 2012v2.pdf" />
+    <Content Include="Upload\news\newsletters\2012-2013-Newsletters\LCS PTO Newsletter December 2012.pdf" />
+    <Content Include="Upload\news\newsletters\2012-2013-Newsletters\LCS PTO Newsletter October 2012.pdf" />
+    <Content Include="Upload\RoomParentForms.zip" />
+    <Content Include="Upload\flyers-and-forms\mother-son-bowling-flyerregistration-form\Mar 2013 Mother Son bowling form.doc" />
+    <Content Include="Upload\flyers-and-forms\sweetheart-dance-flyer-and-messages\Sweetheart Dance Desserts Needed.pdf" />
+    <Content Include="Upload\flyers-and-forms\wizards-of-words-information-flyer-and-book-order-form\WOW 2013 Book Order Form.xlsx" />
+    <Content Include="Upload\flyers-and-forms\wizards-of-words-information-flyer-and-book-order-form\WOW 2013 Information.docx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
