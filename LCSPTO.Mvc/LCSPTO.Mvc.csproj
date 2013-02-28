@@ -56,23 +56,23 @@
     </Reference>
     <Reference Include="N2, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Library.2.4.12.11\lib\N2.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Library.2.4.12.17\lib\N2.dll</HintPath>
     </Reference>
     <Reference Include="N2.Extensions, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.2.4.12.11\lib\N2.Extensions.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.2.4.12.17\lib\N2.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="N2.Management, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.2.4.12.11\lib\N2.Management.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.2.4.12.17\lib\N2.Management.dll</HintPath>
     </Reference>
     <Reference Include="N2.Packaging, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.2.4.12.11\lib\N2.Packaging.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.2.4.12.17\lib\N2.Packaging.dll</HintPath>
     </Reference>
     <Reference Include="N2.Razor, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Razor.2.4.12.11\lib\NET40\N2.Razor.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Razor.2.4.12.17\lib\NET40\N2.Razor.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\packages\NHibernate.3.3.2.4000\lib\Net35\NHibernate.dll</HintPath>
@@ -795,6 +795,7 @@
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\Selection.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\Partials\GMapCoordinate.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\Partials\GMapAddress.cshtml" />
+    <Content Include="Dinamico\Themes\Default\Views\ContentParts\LoginForm.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\Listing.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\Index.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\ImageFloat.cshtml" />
@@ -802,9 +803,12 @@
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\Hyperlink.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\GMap.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\GDocViewer.cshtml" />
+    <Content Include="Dinamico\Themes\Default\Views\ContentParts\FileList.cshtml" />
+    <Content Include="Dinamico\Themes\Default\Views\ContentParts\DelimitedDataDisplay.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\ContentTile.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\ContentSlider.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentPages\Selection.cshtml" />
+    <Content Include="Dinamico\Themes\Default\Views\ContentPages\Redirect.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentPages\News.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentPages\Index.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentPages\Container.cshtml" />
