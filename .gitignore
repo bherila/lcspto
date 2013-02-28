@@ -5,3 +5,5 @@ Temp
 SQLite*.dll
 *.old
 *.suo
+bin
+obj
