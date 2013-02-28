@@ -56,23 +56,23 @@
     </Reference>
     <Reference Include="N2, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Library.2.4.12.9\lib\N2.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Library.2.4.12.11\lib\N2.dll</HintPath>
     </Reference>
     <Reference Include="N2.Extensions, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.2.4.12.9\lib\N2.Extensions.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.2.4.12.11\lib\N2.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="N2.Management, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.2.4.12.9\lib\N2.Management.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.2.4.12.11\lib\N2.Management.dll</HintPath>
     </Reference>
     <Reference Include="N2.Packaging, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.2.4.12.9\lib\N2.Packaging.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.2.4.12.11\lib\N2.Packaging.dll</HintPath>
     </Reference>
     <Reference Include="N2.Razor, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Razor.2.4.12.9\lib\NET40\N2.Razor.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Razor.2.4.12.11\lib\NET40\N2.Razor.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\packages\NHibernate.3.3.2.4000\lib\Net35\NHibernate.dll</HintPath>
@@ -163,6 +163,8 @@
     <Compile Include="Dinamico\Models\PartModelBase.cs" />
     <Compile Include="Dinamico\Models\StartPage.cs" />
     <Compile Include="Dinamico\Registrations\FreeFormRegistration.cs" />
+    <Compile Include="Dinamico\Registrations\PermissionDeniedHandler.cs" />
+    <Compile Include="Dinamico\Registrations\RecursiveZoneAdapter.cs" />
     <Compile Include="Dinamico\Registrations\StartPageRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -607,6 +609,38 @@
     <Content Include="Upload\gstudents3.jpg" />
     <Content Include="Upload\gstudents4.jpg" />
     <Content Include="Upload\gstudents5.jpg" />
+    <Content Include="Upload\Images\copter.jpg" />
+    <Content Include="Upload\Images\copter_cube.jpg" />
+    <Content Include="Upload\Images\copter_half.jpg" />
+    <Content Include="Upload\Images\copter_icon.jpg" />
+    <Content Include="Upload\Images\copter_original.jpg" />
+    <Content Include="Upload\Images\copter_third.jpg" />
+    <Content Include="Upload\Images\copter_thumb.jpg" />
+    <Content Include="Upload\Images\copter_wide.jpg" />
+    <Content Include="Upload\Images\fronds.jpg" />
+    <Content Include="Upload\Images\fronds_cube.jpg" />
+    <Content Include="Upload\Images\fronds_half.jpg" />
+    <Content Include="Upload\Images\fronds_icon.jpg" />
+    <Content Include="Upload\Images\fronds_original.jpg" />
+    <Content Include="Upload\Images\fronds_third.jpg" />
+    <Content Include="Upload\Images\fronds_thumb.jpg" />
+    <Content Include="Upload\Images\fronds_wide.jpg" />
+    <Content Include="Upload\Images\jetty.jpg" />
+    <Content Include="Upload\Images\jetty_cube.jpg" />
+    <Content Include="Upload\Images\jetty_half.jpg" />
+    <Content Include="Upload\Images\jetty_icon.jpg" />
+    <Content Include="Upload\Images\jetty_original.jpg" />
+    <Content Include="Upload\Images\jetty_third.jpg" />
+    <Content Include="Upload\Images\jetty_thumb.jpg" />
+    <Content Include="Upload\Images\jetty_wide.jpg" />
+    <Content Include="Upload\Images\reeds.jpg" />
+    <Content Include="Upload\Images\reeds_cube.jpg" />
+    <Content Include="Upload\Images\reeds_half.jpg" />
+    <Content Include="Upload\Images\reeds_icon.jpg" />
+    <Content Include="Upload\Images\reeds_original.jpg" />
+    <Content Include="Upload\Images\reeds_third.jpg" />
+    <Content Include="Upload\Images\reeds_thumb.jpg" />
+    <Content Include="Upload\Images\reeds_wide.jpg" />
     <Content Include="Upload\LCS_Front.jpg" />
     <Content Include="Upload\LCS_Sign.jpg" />
     <Content Include="Upload\LCS_Statue.jpg" />
@@ -614,7 +648,9 @@
     <Content Include="Upload\n2logo.png" />
     <Content Include="Upload\n2logo_white.png" />
     <Content Include="Upload\skydrive-screenshot.png" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -706,6 +742,7 @@
     <Content Include="Dinamico\Themes\Default\Views\Test\Index.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\StartPage\NotFound.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\StartPage\Index.cshtml" />
+    <Content Include="Dinamico\Themes\Default\Views\Slideshow\Index.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\Shared\TokenTemplates\TOC.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\Shared\TokenTemplates\SubsequentSiblings.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\Shared\TokenTemplates\StartPage.cshtml" />
@@ -762,6 +799,7 @@
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\Index.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\ImageFloat.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\ImageAndText.cshtml" />
+    <Content Include="Dinamico\Themes\Default\Views\ContentParts\Hyperlink.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\GMap.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\GDocViewer.cshtml" />
     <Content Include="Dinamico\Themes\Default\Views\ContentParts\ContentTile.cshtml" />
