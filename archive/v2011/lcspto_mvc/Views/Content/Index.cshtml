@@ -1,0 +1,34 @@
+﻿@using lcspto_mvc
+@model lcspto_mvc.content
+
+@{
+    Markdown m = new Markdown();
+    ViewBag.Title = @Model.HtmlTitle;
+}
+
+
+<table style="width: 100%;">
+<tr>
+<td>
+
+    <!-- main content { -->
+    @Html.Raw(m.Transform(Model.HtmlText))
+    <!-- } /main content -->
+
+</td>
+<td class="scol">
+
+    <div class="cbox">
+    <!-- sideNav { -->
+        <h2>@ViewBag.RightNavTitle</h2>
+        <ul>
+        @foreach (string[] ci in ViewBag.RightNavItems) {
+            <li>@Html.ActionLink(ci[1], "Index", new { id = ci[0] })</li>
+        }
+        </ul>
+    <!-- } /sidenav -->
+    </div>
+
+</td>
+</tr>
+</table>

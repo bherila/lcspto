@@ -1,0 +1,28 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+body 
+{
+    background: #43566D;
+    font-family: 'Droid Sans', Sans-Serif;
+    font-size: 10pt;
+}
+
+h1, h2, h3 { font-weight: normal; }
+
+#title { float: left; }
+#logindisplay { float: right; }
+header { margin-bottom: 1em; }
+
+#container { background: #EDEEF1; width: 960px; padding: 20px;  margin-bottom: 40px; }
+
+footer { margin-top: 1em; border-top: 1px solid gray; padding-top: 1em; }
+section#main { padding: 1em; background: #fff; border: 1px solid teal; }
+
+.datatable { border-collapse: collapse; margin-bottom: 1em; clear: both; }
+.datatable td { border: 1px solid silver; }
+.dataTables_wrapper { margin-bottom: 3em; }
+
+.warning { border: 1px solid #FFCC00; padding: 3px 3px 3px 30px; 
+          background: #FFFFCC url(/Assets/ElixCMS/images/error.png) no-repeat;
+          background-position: 4px center;
+          margin: 0.6em 0; }
