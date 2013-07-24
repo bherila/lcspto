@@ -1,0 +1,54 @@
+﻿@model lcspto_mvc.Controllers.PhotoDirectoryModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@section head {
+
+    <script src="@Url.Content("~/content/jquery.lazyload.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/content/jquery.lightbox-0.5.js")" type="text/javascript"></script>
+    <link href="@Url.Content("~/Content/jquery.lightbox-0.5.css")" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+        #subfolders { list-style-image: url(folder.png); }
+        #subfolders a:link { text-decoration: none; color: Black; }
+        #subfolders a:visited { text-decoration: none; color: Navy; }
+        #subfolders a:hover { text-decoration: underline; }
+    </style>
+
+
+}
+
+<h2>
+    @if (!String.IsNullOrEmpty(Model.VirtualPath)) { 
+        <a href="@ViewBag.UpLink"><img src="@Url.Content("~/Content/up.png")" /></a>
+    }
+    @Model.Name
+</h2>
+
+@if (Model.Directories != null && Model.Directories.Count > 0) { 
+    <ul>
+    @foreach (var x in Model.Directories) { 
+        <li>
+            <img src="../../Content/folder.png" />
+            @Html.ActionLink(x.Name, "Index", new { Directory = x.VirtualPath })</li>
+    }
+    </ul>
+}
+
+@if (Model.Photos != null && Model.Photos.Count > 0) { 
+    <div id="gallery">
+    @foreach (var photo in Model.Photos) {
+        <a href=" @Url.Content(photo.MedUrl)"><img original="@Url.Content(photo.ThumbUrl)" alt="@photo.DisplayName" width="@photo.ThumbWidth" height="@photo.ThumbHeight" /></a>
+        
+    }   
+    </div>
+}
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("img").lazyload();
+            $('#gallery a').lightBox({ fixedNavigation: true });
+        });
+    </script>

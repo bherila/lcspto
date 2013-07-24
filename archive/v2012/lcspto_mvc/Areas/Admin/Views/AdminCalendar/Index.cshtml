@@ -1,0 +1,35 @@
+﻿@model IEnumerable<lcspto_mvc.calendaritem>
+@{
+    ViewBag.Title = "Index";
+    int index = 0;
+}
+<h2>Edit Calendar</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="datatable">
+<thead>
+ <tr>
+  <th>#</th>
+  <th>Name </th>
+  <th>Details </th>
+  <th>Date </th>
+  <th></th>
+ </tr>
+</thead>
+<tbody>
+@foreach (var item in Model) {
+ <tr>
+  <td>@(++index)</td>
+  <td>@Html.DisplayFor(modelItem => item.Name)&nbsp;</td>
+  <td>@Html.DisplayFor(modelItem => item.Details)&nbsp;</td>
+  <td>@Html.DisplayFor(modelItem => item.Date)&nbsp;</td>
+  <td nowrap="nowrap">
+  @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+  @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+  @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+  </td>
+ </tr>
+}
+</tbody>
+</table>

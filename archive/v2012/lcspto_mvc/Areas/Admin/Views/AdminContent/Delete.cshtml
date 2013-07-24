@@ -1,0 +1,43 @@
+﻿@model lcspto_mvc.content
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>content</legend>
+
+    <div class="display-label">Parent Page Name</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ParentPageName)
+    </div>
+
+    <div class="display-label">PageName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PageName)
+    </div>
+
+    <div class="display-label">HtmlTitle</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.HtmlTitle)
+    </div>
+
+    <div class="display-label">HtmlText</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.HtmlText)
+    </div>
+
+    <div class="display-label">LoginRequired</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LoginRequired)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

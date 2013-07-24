@@ -1,0 +1,35 @@
+﻿@model lcspto_mvc.news
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>news</legend>
+
+    <div class="display-label">HeaderText</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.HeaderText)
+    </div>
+
+    <div class="display-label">ArticleContent</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ArticleContent)
+    </div>
+
+    <div class="display-label">PublishDate</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PublishDate)
+    </div>
+
+    <div class="display-label">Category</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Category)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

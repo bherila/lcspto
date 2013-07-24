@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="lcspro_mvc.Controllers.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="lcspro_mvcControllersStoreContainer">
+          <EntitySet Name="calendaritems" EntityType="lcspro_mvc.Controllers.Store.calendaritems" store:Type="Tables" Schema="lcspto_elixcms" />
+          <EntitySet Name="content" EntityType="lcspro_mvc.Controllers.Store.content" store:Type="Tables" Schema="lcspto_elixcms" />
+          <EntitySet Name="form_fields" EntityType="lcspro_mvc.Controllers.Store.form_fields" store:Type="Tables" Schema="lcspto_elixcms" />
+          <EntitySet Name="form_responses" EntityType="lcspro_mvc.Controllers.Store.form_responses" store:Type="Tables" Schema="lcspto_elixcms" />
+          <EntitySet Name="forms" EntityType="lcspro_mvc.Controllers.Store.forms" store:Type="Tables" Schema="lcspto_elixcms" />
+          <EntitySet Name="news" EntityType="lcspro_mvc.Controllers.Store.news" store:Type="Tables" Schema="lcspto_elixcms" />
+          <EntitySet Name="photo_propertycache" EntityType="lcspro_mvc.Controllers.Store.photo_propertycache" store:Type="Tables" Schema="lcspto_elixcms" />
+        </EntityContainer>
+        <EntityType Name="calendaritems">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="details" Type="text" />
+          <Property Name="date" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="content">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ParentPageName" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="PageName" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="HtmlTitle" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="HtmlText" Type="mediumtext" Nullable="false" />
+          <Property Name="LoginRequired" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="form_fields">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FormID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="InputType" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="Required" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="form_responses">
+          <Key>
+            <PropertyRef Name="response_id" />
+          </Key>
+          <Property Name="response_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="form_id" Type="int" Nullable="false" />
+          <Property Name="field_id" Type="int" Nullable="false" />
+          <Property Name="field_data" Type="mediumtext" Nullable="false" />
+        </EntityType>
+        <EntityType Name="forms">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FormName" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="EmailResponsesTo" Type="mediumtext" Nullable="false" />
+          <Property Name="SaveResponses" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="news">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Category" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="HeaderText" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="ArticleContent" Type="mediumtext" Nullable="false" />
+          <Property Name="PublishDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="photo_propertycache">
+          <Key>
+            <PropertyRef Name="filename_hash" />
+          </Key>
+          <Property Name="filename_hash" Type="int" Nullable="false" />
+          <Property Name="dir_hash" Type="int" Nullable="false" />
+          <Property Name="width" Type="smallint" Nullable="false" />
+          <Property Name="height" Type="smallint" Nullable="false" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="lcspro_mvc" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="DataModel" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="calendaritems" EntityType="lcspro_mvc.calendaritem" />
+          <EntitySet Name="form_fields" EntityType="lcspro_mvc.form_fields" />
+          <EntitySet Name="form_responses" EntityType="lcspro_mvc.form_responses" />
+          <EntitySet Name="forms" EntityType="lcspro_mvc.form" />
+          <EntitySet Name="news" EntityType="lcspro_mvc.news" />
+          <EntitySet Name="contents" EntityType="lcspro_mvc.content" />
+          <EntitySet Name="photo_propertycache" EntityType="lcspro_mvc.photo_propertycache" />
+        </EntityContainer>
+        <EntityType Name="calendaritem">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Details" Type="String" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="form_fields">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="FormID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="InputType" Type="String" Nullable="false" />
+          <Property Name="Required" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="form_responses">
+          <Key>
+            <PropertyRef Name="ResponseID" />
+          </Key>
+          <Property Name="ResponseID" Type="Int32" Nullable="false" />
+          <Property Name="FormID" Type="Int32" Nullable="false" />
+          <Property Name="FieldID" Type="Int32" Nullable="false" />
+          <Property Name="FieldData" Type="String" Nullable="false" />
+        </EntityType>
+        <EntityType Name="form">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="FormName" Type="String" Nullable="false" />
+          <Property Name="EmailResponsesTo" Type="String" Nullable="false" />
+          <Property Name="SaveResponses" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="news">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" />
+          <Property Name="HeaderText" Type="String" Nullable="false" />
+          <Property Name="ArticleContent" Type="String" Nullable="false" />
+          <Property Name="PublishDate" Type="DateTime" Nullable="false" />
+          <Property Type="String" Name="Category" Nullable="false" />
+        </EntityType>
+        <EntityType Name="content">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int64" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="ParentPageName" Nullable="false" />
+          <Property Type="String" Name="PageName" Nullable="false" />
+          <Property Type="String" Name="HtmlTitle" Nullable="false" />
+          <Property Type="String" Name="HtmlText" Nullable="false" />
+          <Property Type="Boolean" Name="LoginRequired" Nullable="false" />
+        </EntityType>
+        <EntityType Name="photo_propertycache">
+          <Key>
+            <PropertyRef Name="FilenameHash" />
+          </Key>
+          <Property Type="Int32" Name="FilenameHash" Nullable="false" />
+          <Property Type="Int32" Name="DirHash" Nullable="false" />
+          <Property Type="Int16" Name="Width" Nullable="false" />
+          <Property Type="Int16" Name="Height" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="lcspro_mvcControllersStoreContainer" CdmEntityContainer="DataModel">
+          <EntitySetMapping Name="calendaritems"><EntityTypeMapping TypeName="lcspro_mvc.calendaritem"><MappingFragment StoreEntitySet="calendaritems">
+            <ScalarProperty Name="ID" ColumnName="id" />
+            <ScalarProperty Name="Name" ColumnName="name" />
+            <ScalarProperty Name="Details" ColumnName="details" />
+            <ScalarProperty Name="Date" ColumnName="date" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="form_fields"><EntityTypeMapping TypeName="lcspro_mvc.form_fields"><MappingFragment StoreEntitySet="form_fields">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="FormID" ColumnName="FormID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="InputType" ColumnName="InputType" />
+            <ScalarProperty Name="Required" ColumnName="Required" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="form_responses"><EntityTypeMapping TypeName="lcspro_mvc.form_responses"><MappingFragment StoreEntitySet="form_responses">
+            <ScalarProperty Name="ResponseID" ColumnName="response_id" />
+            <ScalarProperty Name="FormID" ColumnName="form_id" />
+            <ScalarProperty Name="FieldID" ColumnName="field_id" />
+            <ScalarProperty Name="FieldData" ColumnName="field_data" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="forms"><EntityTypeMapping TypeName="lcspro_mvc.form"><MappingFragment StoreEntitySet="forms">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="FormName" ColumnName="FormName" />
+            <ScalarProperty Name="EmailResponsesTo" ColumnName="EmailResponsesTo" />
+            <ScalarProperty Name="SaveResponses" ColumnName="SaveResponses" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="news"><EntityTypeMapping TypeName="lcspro_mvc.news"><MappingFragment StoreEntitySet="news">
+            <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="HeaderText" ColumnName="HeaderText" />
+            <ScalarProperty Name="ArticleContent" ColumnName="ArticleContent" />
+            <ScalarProperty Name="PublishDate" ColumnName="PublishDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="contents">
+            <EntityTypeMapping TypeName="lcspro_mvc.content">
+              <MappingFragment StoreEntitySet="content">
+                <ScalarProperty Name="LoginRequired" ColumnName="LoginRequired" />
+                <ScalarProperty Name="HtmlText" ColumnName="HtmlText" />
+                <ScalarProperty Name="HtmlTitle" ColumnName="HtmlTitle" />
+                <ScalarProperty Name="PageName" ColumnName="PageName" />
+                <ScalarProperty Name="ParentPageName" ColumnName="ParentPageName" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="photo_propertycache">
+            <EntityTypeMapping TypeName="lcspro_mvc.photo_propertycache">
+              <MappingFragment StoreEntitySet="photo_propertycache">
+                <ScalarProperty Name="Height" ColumnName="height" />
+                <ScalarProperty Name="Width" ColumnName="width" />
+                <ScalarProperty Name="DirHash" ColumnName="dir_hash" />
+                <ScalarProperty Name="FilenameHash" ColumnName="filename_hash" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="DataModel">
+        <EntityTypeShape EntityType="lcspro_mvc.calendaritem" Width="1.5" PointX="0.75" PointY="0.75" Height="1.787985026041667" IsExpanded="true" />
+        <EntityTypeShape EntityType="lcspro_mvc.form_fields" Width="1.5" PointX="0.75" PointY="3.75" Height="1.9802864583333322" IsExpanded="true" />
+        <EntityTypeShape EntityType="lcspro_mvc.form_responses" Width="1.5" PointX="2.75" PointY="3.75" Height="1.7879850260416657" IsExpanded="true" />
+        <EntityTypeShape EntityType="lcspro_mvc.form" Width="1.5" PointX="4.75" PointY="0.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="lcspro_mvc.news" Width="1.5" PointX="4.75" PointY="3.75" Height="1.7879850260416665" IsExpanded="true" />
+        <EntityTypeShape EntityType="lcspro_mvc.content" Width="1.5" PointX="0.75" PointY="6.75" Height="2.1725878906249996" />
+        <EntityTypeShape EntityType="lcspro_mvc.photo_propertycache" Width="1.5" PointX="2.75" PointY="6.625" Height="1.7879850260416657" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>
