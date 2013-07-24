@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.libertycornerpto.org	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	o1w0aun0bb5scuw4pzcnbazi
+
