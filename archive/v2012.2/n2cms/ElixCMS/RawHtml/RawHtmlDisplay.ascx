@@ -1,1 +1,0 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="RawHtmlDisplay.ascx.cs" Inherits="N2.Addons.RawHtml.RawHtmlDisplay" %>
