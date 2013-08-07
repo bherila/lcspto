@@ -87,9 +87,14 @@
             </ul>
             <hr />
             <ul class="nav nav-list">
-            @if (User.Identity.IsAuthenticated) {
-                <li><a href="/account/signout/?returnUrl=@Server.UrlEncode(Request.RawUrl)">Sign out</a></li>
-            }
+            @if (User.Identity.IsAuthenticated) { 
+				var logoutUrl = Request.RawUrl;
+				logoutUrl += (logoutUrl.Contains("?") ? "&":"?");
+				logoutUrl += "rand=" + Guid.NewGuid().ToString("N");
+				{
+                <li><a href="/N2/Login.aspx?logout=true&returnUrl=@Server.UrlEncode(logoutUrl)">Sign out</a></li>
+				}
+			}
             else {
                 <li><a href="/N2/Login.aspx?returnUrl=@Server.UrlEncode(Request.RawUrl)">Sign in to access protected resources</a></li>
             }
