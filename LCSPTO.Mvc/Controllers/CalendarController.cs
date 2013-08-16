@@ -5,12 +5,16 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
+using N2;
 using N2.Web;
 using N2.Engine;
 using N2.Web.Mvc;
 using Dinamico.Models;
+using N2.Web.Parts;
 
 namespace LCSPTO.Mvc.Controllers
 {
@@ -20,7 +24,7 @@ namespace LCSPTO.Mvc.Controllers
     }
 
     [Adapts(typeof(FullCalendar))]
-    public class FullCalendarAdapter : MvcAdapter
+    public class FullCalendarAdapter : PartsAdapter
     {
         private const string Header = @"
 <div id=""$ID"" style=""margin:3em 0;font-size:13px""></div>
@@ -101,9 +105,10 @@ $(document).ready(function() {
             return sb.ToString();
         }
 
-        public override void RenderTemplate(System.Web.Mvc.HtmlHelper html, N2.ContentItem model)
-        {
-            html.ViewContext.Writer.Write(GetHtml(model));
-        }
+
+	    public override void RenderPart(HtmlHelper html, ContentItem part, TextWriter writer = null)
+	    {
+			html.ViewContext.Writer.Write(GetHtml(part));
+	    }
     }
 }
