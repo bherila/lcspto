@@ -15,13 +15,6 @@ namespace LCSPTO.Mvc
 	{
 		protected void Application_Start()
 		{
-			// map a simple name to a path
-			ScriptManager.ScriptResourceMapping.AddDefinition("jquery", new ScriptResourceDefinition
-			{
-				Path = "http://ajax.microsoft.com/ajax/jQuery/jquery-1.4.1.min.js",
-				DebugPath = "http://ajax.microsoft.com/ajax/jQuery/jquery-1.4.1.js"
-			});
-
 			AreaRegistration.RegisterAllAreas();
 
 			WebApiConfig.Register(GlobalConfiguration.Configuration);
