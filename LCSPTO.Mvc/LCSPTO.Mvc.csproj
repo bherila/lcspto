@@ -1146,8 +1146,6 @@
     <Content Include="Upload\LCS_Sign.jpg" />
     <Content Include="Upload\LCS_Statue.jpg" />
     <Content Include="Upload\LCS_Statue_Portrait.jpg" />
-    <Content Include="Upload\n2logo.png" />
-    <Content Include="Upload\n2logo_white.png" />
     <Content Include="Upload\skydrive-screenshot.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -1361,7 +1359,6 @@
     <Content Include="Upload\news\newsletters\2011-2012-newsletter-archive\LCS PTO Newsletter June 2012v2.pdf" />
     <Content Include="Upload\news\newsletters\2012-2013-Newsletters\LCS PTO Newsletter December 2012.pdf" />
     <Content Include="Upload\news\newsletters\2012-2013-Newsletters\LCS PTO Newsletter October 2012.pdf" />
-    <Content Include="Upload\RoomParentForms.zip" />
     <Content Include="Upload\flyers-and-forms\mother-son-bowling-flyerregistration-form\Mar 2013 Mother Son bowling form.doc" />
     <Content Include="Upload\flyers-and-forms\sweetheart-dance-flyer-and-messages\Sweetheart Dance Desserts Needed.pdf" />
     <Content Include="Upload\flyers-and-forms\wizards-of-words-information-flyer-and-book-order-form\WOW 2013 Book Order Form.xlsx" />
