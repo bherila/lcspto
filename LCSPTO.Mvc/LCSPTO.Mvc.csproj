@@ -56,31 +56,31 @@
     </Reference>
     <Reference Include="N2, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Library.2.5.5\lib\N2.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Library.2.5.5.2\lib\N2.dll</HintPath>
     </Reference>
     <Reference Include="N2.Extensions, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5\lib\N2.Extensions.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5.1\lib\N2.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="N2.IoC.Windsor3, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5\lib\N2.IoC.Windsor3.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5.1\lib\N2.IoC.Windsor3.dll</HintPath>
     </Reference>
     <Reference Include="N2.Management, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5\lib\N2.Management.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5.1\lib\N2.Management.dll</HintPath>
     </Reference>
     <Reference Include="N2.Packaging, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5\lib\N2.Packaging.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5.1\lib\N2.Packaging.dll</HintPath>
     </Reference>
     <Reference Include="N2.Razor, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Razor.2.5.5\lib\NET40\N2.Razor.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Razor.2.5.5.2\lib\NET40\N2.Razor.dll</HintPath>
     </Reference>
     <Reference Include="N2.ReusableParts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5\lib\N2.ReusableParts.dll</HintPath>
+      <HintPath>..\packages\N2CMS.ReusableParts.2.5.5.2\lib\NET40\N2.ReusableParts.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\packages\NHibernate.3.3.2.4000\lib\Net35\NHibernate.dll</HintPath>
@@ -540,9 +540,6 @@
     <Content Include="N2\Files\Js\jquery.Jcrop.min.js" />
     <Content Include="N2\Files\Js\jquery.MultiFile.js" />
     <Content Include="N2\Files\Rebuild.aspx" />
-    <Content Include="N2\history.txt" />
-    <Content Include="N2\howto_develop.txt" />
-    <Content Include="N2\howto_install.txt" />
     <Content Include="N2\Installation\Begin\Default.aspx" />
     <Content Include="N2\Installation\dbmigrator.aspx" />
     <Content Include="N2\Installation\Default.aspx" />
@@ -553,7 +550,6 @@
     <Content Include="N2\Installation\Rebase.aspx" />
     <Content Include="N2\Installation\Upgrade.aspx" />
     <Content Include="N2\Installation\UpgradeVersions.aspx" />
-    <Content Include="N2\license.txt" />
     <Content Include="N2\Login.aspx" />
     <Content Include="N2\Myself\Activity.ascx" />
     <Content Include="N2\Myself\Analytics\Resources\excanvas.js" />
@@ -569,7 +565,6 @@
     <Content Include="N2\Myself\Root.aspx" />
     <Content Include="N2\Myself\Statistics.ascx" />
     <Content Include="N2\Myself\Wizards.ascx" />
-    <Content Include="N2\n2_readme.txt" />
     <Content Include="N2\Resources\angular-1.1.5\angular-resource.min.js" />
     <Content Include="N2\Resources\angular-1.1.5\angular.min.js" />
     <Content Include="N2\Resources\angular-1.1.5\i18n\angular-locale_en.js" />
@@ -1093,7 +1088,6 @@
     <Content Include="N2\Tokens\TokenTemplates\StartPage.ascx" />
     <Content Include="N2\Tokens\TokenTemplates\SyntaxHighlighter.ascx" />
     <Content Include="N2\Tokens\TokenTemplates\TOC.ascx" />
-    <Content Include="N2\upgrade.txt" />
     <Content Include="N2\Users\Activity.aspx" />
     <Content Include="N2\Users\Css\Membership.css" />
     <Content Include="N2\Users\Edit.aspx" />
@@ -1146,6 +1140,8 @@
     <Content Include="Upload\LCS_Sign.jpg" />
     <Content Include="Upload\LCS_Statue.jpg" />
     <Content Include="Upload\LCS_Statue_Portrait.jpg" />
+    <Content Include="Upload\n2logo.png" />
+    <Content Include="Upload\n2logo_white.png" />
     <Content Include="Upload\skydrive-screenshot.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -1200,6 +1196,34 @@
     <Content Include="App_Data\n2_host.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="N2\Web.config" />
+    <Content Include="N2\Top.master" />
+    <Content Include="N2\Simple.master" />
+    <Content Include="N2\Search\IndexInfo.ashx" />
+    <Content Include="N2\Resources\RedirectHandler.ashx" />
+    <Content Include="N2\Resources\MessageSink.ashx" />
+    <Content Include="N2\Resources\KeepAlive\Ping.ashx" />
+    <Content Include="N2\Resources\Js\tinymce.ashx" />
+    <Content Include="N2\Resources\Js\plugins.ashx" />
+    <Content Include="N2\Resources\Js\jquery.ui.ashx" />
+    <Content Include="N2\Resources\IconHandler.ashx" />
+    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.woff" />
+    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.ttf" />
+    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.eot" />
+    <Content Include="N2\Resources\font-awesome\font\FontAwesome.otf" />
+    <Content Include="N2\Myself\Analytics\Views\Web.config" />
+    <Content Include="N2\log4net.config" />
+    <Content Include="N2\Installation\UpgradeVersion.ashx" />
+    <Content Include="N2\Installation\system.diagnostics.trace.config" />
+    <Content Include="N2\Installation\log4net.config" />
+    <Content Include="N2\Files\Resize.ashx" />
+    <Content Include="N2\Files\FileSystem\UploadFile.ashx" />
+    <Content Include="N2\Content\Navigation\SortUp.ashx" />
+    <Content Include="N2\Content\Navigation\SortDown.ashx" />
+    <Content Include="N2\Content\Navigation\LoadTree.ashx" />
+    <Content Include="N2\Content\LinkTracker\UpdateReferencesTo.ashx" />
+    <Content Include="N2\Content\Framed.master" />
+    <Content Include="N2\Content\Activity\Notify.ashx" />
     <Content Include="Dinamico\Themes\Web.config.MVC3" />
     <Content Include="Dinamico\Themes\Web.config" />
     <Content Include="Dinamico\Themes\Terracotta\Views\Web.config" />
@@ -1302,37 +1326,6 @@
     <Content Include="Dinamico\Themes\Cloudy\Views\Shared\LayoutPartials\Header.cshtml" />
     <Content Include="Dinamico\Themes\_ViewStart.cshtml" />
     <Content Include="App_Data\SampleContent.n2.xml.gz" />
-    <Content Include="N2\Myself\Analytics\Views\Web.config" />
-    <Content Include="N2\log4net.config" />
-    <Content Include="N2\Installation\UpgradeVersion.ashx" />
-    <Content Include="N2\Installation\system.diagnostics.trace.config" />
-    <Content Include="N2\Installation\log4net.config" />
-    <Content Include="N2\Files\Resize.ashx" />
-    <Content Include="N2\Files\FileSystem\UploadFile.ashx" />
-    <Content Include="N2\Content\Navigation\SortUp.ashx" />
-    <Content Include="N2\Content\Navigation\SortDown.ashx" />
-    <Content Include="N2\Content\Navigation\LoadTree.ashx" />
-    <Content Include="N2\Content\LinkTracker\UpdateReferencesTo.ashx" />
-    <Content Include="N2\Content\Framed.Master" />
-    <Content Include="N2\Content\Activity\Notify.ashx" />
-    <None Include="N2\n2cms.configuration.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <Content Include="N2\Web.config" />
-    <Content Include="N2\Top.master" />
-    <Content Include="N2\Simple.master" />
-    <Content Include="N2\Search\IndexInfo.ashx" />
-    <Content Include="N2\Resources\RedirectHandler.ashx" />
-    <Content Include="N2\Resources\MessageSink.ashx" />
-    <Content Include="N2\Resources\KeepAlive\Ping.ashx" />
-    <Content Include="N2\Resources\Js\tinymce.ashx" />
-    <Content Include="N2\Resources\Js\plugins.ashx" />
-    <Content Include="N2\Resources\Js\jquery.ui.ashx" />
-    <Content Include="N2\Resources\IconHandler.ashx" />
-    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.woff" />
-    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.ttf" />
-    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.eot" />
-    <Content Include="N2\Resources\font-awesome\font\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\c-tmp.pubxml" />
     <None Include="Properties\PublishProfiles\libertycornerpto.com - FTP.pubxml" />
     <Content Include="Upload\BattleOfTheBooks-StartUp Packet2012-13.doc" />
@@ -1366,17 +1359,12 @@
     <None Include="Properties\PublishProfiles\libertycornerpto.com - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\libertycornerpto.com - Web Deploy.pubxml" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="N2\Users\App_LocalResources\Users.aspx.resx" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="N2\Users\App_LocalResources\Password.aspx.resx" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="N2\Users\App_LocalResources\New.aspx.resx" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="N2\Users\App_LocalResources\Edit.aspx.resx" />
+    <Content Include="N2\Users\App_LocalResources\New.aspx.resx" />
+    <Content Include="N2\Users\App_LocalResources\Password.aspx.resx" />
+    <Content Include="N2\Users\App_LocalResources\Users.aspx.resx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="N2\Myself\App_LocalResources\Wizards.ascx.resx" />
