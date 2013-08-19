@@ -56,23 +56,23 @@
     </Reference>
     <Reference Include="N2, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Library.2.5.5.2\lib\N2.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Library.2.5.6\lib\N2.dll</HintPath>
     </Reference>
     <Reference Include="N2.Extensions, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5.1\lib\N2.Extensions.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.6\lib\N2.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="N2.IoC.Windsor3, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5.1\lib\N2.IoC.Windsor3.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.6\lib\N2.IoC.Windsor3.dll</HintPath>
     </Reference>
     <Reference Include="N2.Management, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5.1\lib\N2.Management.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.6\lib\N2.Management.dll</HintPath>
     </Reference>
     <Reference Include="N2.Packaging, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.5.1\lib\N2.Packaging.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.6\lib\N2.Packaging.dll</HintPath>
     </Reference>
     <Reference Include="N2.Razor, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -80,7 +80,7 @@
     </Reference>
     <Reference Include="N2.ReusableParts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\N2CMS.ReusableParts.2.5.5.2\lib\NET40\N2.ReusableParts.dll</HintPath>
+      <HintPath>..\packages\N2CMS.Management.NoZip.2.5.6\lib\N2.ReusableParts.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\packages\NHibernate.3.3.2.4000\lib\Net35\NHibernate.dll</HintPath>
@@ -1196,34 +1196,6 @@
     <Content Include="App_Data\n2_host.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="N2\Web.config" />
-    <Content Include="N2\Top.master" />
-    <Content Include="N2\Simple.master" />
-    <Content Include="N2\Search\IndexInfo.ashx" />
-    <Content Include="N2\Resources\RedirectHandler.ashx" />
-    <Content Include="N2\Resources\MessageSink.ashx" />
-    <Content Include="N2\Resources\KeepAlive\Ping.ashx" />
-    <Content Include="N2\Resources\Js\tinymce.ashx" />
-    <Content Include="N2\Resources\Js\plugins.ashx" />
-    <Content Include="N2\Resources\Js\jquery.ui.ashx" />
-    <Content Include="N2\Resources\IconHandler.ashx" />
-    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.woff" />
-    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.ttf" />
-    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.eot" />
-    <Content Include="N2\Resources\font-awesome\font\FontAwesome.otf" />
-    <Content Include="N2\Myself\Analytics\Views\Web.config" />
-    <Content Include="N2\log4net.config" />
-    <Content Include="N2\Installation\UpgradeVersion.ashx" />
-    <Content Include="N2\Installation\system.diagnostics.trace.config" />
-    <Content Include="N2\Installation\log4net.config" />
-    <Content Include="N2\Files\Resize.ashx" />
-    <Content Include="N2\Files\FileSystem\UploadFile.ashx" />
-    <Content Include="N2\Content\Navigation\SortUp.ashx" />
-    <Content Include="N2\Content\Navigation\SortDown.ashx" />
-    <Content Include="N2\Content\Navigation\LoadTree.ashx" />
-    <Content Include="N2\Content\LinkTracker\UpdateReferencesTo.ashx" />
-    <Content Include="N2\Content\Framed.master" />
-    <Content Include="N2\Content\Activity\Notify.ashx" />
     <Content Include="Dinamico\Themes\Web.config.MVC3" />
     <Content Include="Dinamico\Themes\Web.config" />
     <Content Include="Dinamico\Themes\Terracotta\Views\Web.config" />
@@ -1326,6 +1298,36 @@
     <Content Include="Dinamico\Themes\Cloudy\Views\Shared\LayoutPartials\Header.cshtml" />
     <Content Include="Dinamico\Themes\_ViewStart.cshtml" />
     <Content Include="App_Data\SampleContent.n2.xml.gz" />
+    <Content Include="N2\Web.config" />
+    <Content Include="N2\Top.master" />
+    <Content Include="N2\Simple.master" />
+    <Content Include="N2\Search\IndexInfo.ashx" />
+    <Content Include="N2\Resources\RedirectHandler.ashx" />
+    <Content Include="N2\Resources\MessageSink.ashx" />
+    <Content Include="N2\Resources\KeepAlive\Ping.ashx" />
+    <Content Include="N2\Resources\Js\tinymce.ashx" />
+    <Content Include="N2\Resources\Js\plugins.ashx" />
+    <Content Include="N2\Resources\Js\jquery.ui.ashx" />
+    <Content Include="N2\Resources\IconHandler.ashx" />
+    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.woff" />
+    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.ttf" />
+    <Content Include="N2\Resources\font-awesome\font\fontawesome-webfont.eot" />
+    <Content Include="N2\Resources\font-awesome\font\FontAwesome.otf" />
+    <Content Include="N2\Myself\Analytics\Views\Web.config" />
+    <Content Include="N2\log4net.config" />
+    <Content Include="N2\Installation\UpgradeVersion.ashx" />
+    <Content Include="N2\Installation\system.diagnostics.trace.config" />
+    <Content Include="N2\Installation\log4net.config" />
+    <Content Include="N2\Files\Resize.ashx" />
+    <Content Include="N2\Files\FileSystem\UploadFile.ashx" />
+    <Content Include="N2\Content\Navigation\SortUp.ashx" />
+    <Content Include="N2\Content\Navigation\SortDown.ashx" />
+    <Content Include="N2\Content\Navigation\LoadTree.ashx" />
+    <Content Include="N2\Content\LinkTracker\UpdateReferencesTo.ashx" />
+    <Content Include="N2\Content\Framed.master" />
+    <Content Include="N2\Content\Activity\Notify.ashx" />
+    <Content Include="Dinamico\Themes\Default\Views\ContentPages\Index_RightMargin.cshtml" />
+    <Content Include="Dinamico\Themes\Default\Views\ContentPages\Index_TwoColumn.cshtml" />
     <None Include="Properties\PublishProfiles\c-tmp.pubxml" />
     <None Include="Properties\PublishProfiles\libertycornerpto.com - FTP.pubxml" />
     <Content Include="Upload\BattleOfTheBooks-StartUp Packet2012-13.doc" />
@@ -1359,12 +1361,17 @@
     <None Include="Properties\PublishProfiles\libertycornerpto.com - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\libertycornerpto.com - Web Deploy.pubxml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="N2\Users\App_LocalResources\Users.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="N2\Users\App_LocalResources\Password.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="N2\Users\App_LocalResources\New.aspx.resx" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="N2\Users\App_LocalResources\Edit.aspx.resx" />
-    <Content Include="N2\Users\App_LocalResources\New.aspx.resx" />
-    <Content Include="N2\Users\App_LocalResources\Password.aspx.resx" />
-    <Content Include="N2\Users\App_LocalResources\Users.aspx.resx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="N2\Myself\App_LocalResources\Wizards.ascx.resx" />
