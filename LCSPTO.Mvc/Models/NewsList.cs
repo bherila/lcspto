@@ -5,6 +5,7 @@
 
 using N2;
 using N2.Collections;
+using N2.Definitions;
 using N2.Details;
 using N2.Integrity;
 using N2.Templates;
@@ -28,7 +29,7 @@ namespace LCSPTO.Mvc
 
     [PartDefinition("News Container Link")]
     [RestrictParents(typeof(NewsList), typeof(FullCalendar))]
-    public class NewsListContainerLink : ContentItem, N2.Definitions.IPart
+    public class NewsListContainerLink : ContentItem, IPart
     {
         [EditableLink("News container", 100, SelectableTypes = new System.Type[] { typeof(ContentPage) })]
         public virtual ContentPage Container

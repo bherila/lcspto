@@ -59,17 +59,34 @@ $(document).ready(function() {
 
         public static string GetHtml(N2.ContentItem model)
         {
-            var currentItem = model as FullCalendar;
+			var sb = new System.Text.StringBuilder();
+			var currentItem = model as FullCalendar;
+			if (currentItem == null)
+				return "Error: currentItem == null";
 
             // begin paste from NewsListController
             var items = new List<ContentPage>();
             foreach (var containerLink in currentItem.Containers)
-                if (containerLink.Container.IsPage)
-                    NewsListAdapter.ProcessNewsContainer(ref items, containerLink.Container as ContentPage); // process the container
+				if (containerLink != null)
+				{
+					if (containerLink.Container != null)
+					{
+						if (containerLink.Container.IsPage)
+							NewsListAdapter.ProcessNewsContainer(ref items, containerLink.Container as ContentPage); // process the container
+					}
+					else
+					{
+						// containerLink.container is null
+						sb.AppendLine("<!-- Warning: containerLink.container is null -->");
+					}
+				}
+				else
+				{
+					// containerLink is null
+					sb.AppendLine("<!-- Warning: containerLink is null -->");
+				}
             // end paste
 
-            var sb = new System.Text.StringBuilder(
-                Header.Length + Footer.Length + 1024 * items.Count);
 
             var ItemsWithDetails = new List<ContentPage>();
 
@@ -89,9 +106,9 @@ $(document).ready(function() {
                       items[i].Published.Value, 
                       items[i].Expires.HasValue ? items[i].Expires : items[i].Published,
                       items[i].Url, 
-                      items[i].Title.Replace("'", "\\'"),
+                      jsEscape(items[i].Title),
                       (items[i].Published.Value.Hour == 0).ToString().ToLower(),
-                      items[i].Summary.Replace("'", "\\'") /* escape for json */,
+                      jsEscape(items[i].Summary),
 					  itemColor
                       );
 
@@ -104,6 +121,15 @@ $(document).ready(function() {
 
             return sb.ToString();
         }
+
+		static string jsEscape(string str)
+		{
+			return str
+				.Replace("\\", "\\\\")
+				.Replace("'", "\\'")
+				.Replace("\n", "\\n")
+				.Replace("\r", "\\r");
+		}
 
 
 	    public override void RenderPart(HtmlHelper html, ContentItem part, TextWriter writer = null)
