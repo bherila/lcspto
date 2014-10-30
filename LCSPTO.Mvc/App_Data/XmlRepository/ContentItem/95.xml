@@ -1,0 +1,13 @@
+<item id="95" name="" parent="78" title="Upcoming Spring Events" zoneName="" templateKey="News" state="16" created="02/12/2013 04:06:30" updated="10/15/2014 23:50:05" published="04/30/2013 15:06:38" expires="" sortOrder="-445" url="/ContentPages/Index?n2page=95" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="4" ancestralTrail="/5/16/72/78/" alteredPermissions="0" childState="2"><details><detail name="Author" typeName="System.String, mscorlib" meta="" /><detail name="Keywords" typeName="System.String, mscorlib" meta="" /><detail name="Description" typeName="System.String, mscorlib" meta="" /><detail name="SeoTitle" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;u&gt;Upcoming Spring Events and Reminders&lt;/u&gt;&lt;p&gt;
+Kindergarten Screening - May 16 &amp; 17&lt;br&gt;
+School supply order form (SchoolKidz) due by May 17&lt;br&gt;
+School &lt;b&gt;IS&lt;/b&gt; in session on Friday, May 24 (Sandy makeup day)&lt;br&gt;
+Field Day is scheduled for Wednesday, May 29
+&lt;p&gt;
+]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[Upcoming Spring Events and Reminders
+Kindergarten Screening - May 16 & 17
+School supply order form (SchoolKidz) due by May 17
+School IS in session on Friday, May 24 (Sandy makeup day)
+Field Day is scheduled for Wednesday, May 29
+
+]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

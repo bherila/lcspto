@@ -1,0 +1,22 @@
+<item id="8" name="about" parent="5" title="About" zoneName="" templateKey="Index_RightMargin" state="16" created="07/30/2012 19:31:15" updated="10/15/2014 23:49:35" published="07/30/2012 19:30:58" expires="" sortOrder="-30" url="/ContentPages/Index?n2page=8" visible="True" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="28" ancestralTrail="/5/" alteredPermissions="0" childState="132"><details><detail name="Author" typeName="System.String, mscorlib" meta="" /><detail name="Keywords" typeName="System.String, mscorlib" meta="" /><detail name="Description" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;h2&gt;&amp;nbsp;&lt;/h2&gt;
+
+&lt;h2&gt;Our Mission&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;To disseminate information to parents via news blasts, newsletters and our website;&lt;/li&gt;
+	&lt;li&gt;To foster community within our school through various family and social events;&lt;/li&gt;
+	&lt;li&gt;To raise funds for programs to augment the school&amp;#39;s curriculum.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are many opportunities to get involved in the PTO; from volunteering a half hour of your time at an event, to chairing a committee, to serving on the PTO Board. All are welcome and no experience is necessary!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Remember: &amp;nbsp; &amp;nbsp;Those who can, do...&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; those who can do more, volunteer!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2&gt;Important Documents&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;~/about/bylaws&quot;&gt;PTO Organization Bylaws&lt;/a&gt;&lt;/p&gt;
+]]></detail><detail name="ParentID" typeName="System.Int32, mscorlib" meta="">2</detail><detail name="VersionKey" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[95dc4bf4-f898-43f1-a44d-c8e94de14ce4]]></detail><detail name="ListingType" typeName="System.String, mscorlib" meta="" /><detail name="ShowDescendants" typeName="System.Boolean, mscorlib" meta="">False</detail><detail name="NewsFooter" typeName="System.String, mscorlib" meta="" /></details><detailCollections><collection name="TrackedLinks"><detail name="TrackedLinks" typeName="N2.Details.IMultipleValue, N2" meta="Text"><value key="Bool">True</value><value key="Int">930</value><value key="Link">0</value><value key="String" encoded="True"><![CDATA[/about/bylaws]]></value></detail></collection></detailCollections><children><child id="10" name="10" versionIndex="1" versionKey="81c8a1e1-94a4-4690-ad2c-d5b62e81e042" /><child id="11" name="11" versionIndex="21" versionKey="7cac4594-b79e-4a15-87f3-9f0291398d14" /><child id="12" name="12" versionIndex="25" versionKey="881c62a3-4d1e-4b19-9fc1-688613667d48" /><child id="13" name="13" versionIndex="25" versionKey="486de829-958c-4a6a-903d-c842c2d12554" /><child id="14" name="14" versionIndex="21" versionKey="7d465124-5213-412e-bee0-2f78b24b7d96" /><child id="15" name="15" versionIndex="25" versionKey="90f5218e-721e-45e0-b0c2-99021fc3451e" /></children><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

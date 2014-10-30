@@ -1,0 +1,10 @@
+<item id="83" name="upcoming-march-events" parent="78" title="Upcoming March Events" zoneName="" templateKey="News" state="16" created="02/06/2014 04:06:41" updated="10/15/2014 23:49:57" published="02/24/2014 03:56:25" expires="" sortOrder="-565" url="/ContentPages/Index?n2page=83" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="3" ancestralTrail="/5/16/72/78/" alteredPermissions="0" childState="2"><details><detail name="SeoTitle" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;p&gt;&lt;u&gt;Remember to sign up for great upcoming events! &amp;nbsp;Information flyers and forms are found on the Flyers and&amp;nbsp;Forms page of this website.&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;3/1 - Mother-Son Bowling&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;3/8 - Spring Social at the Somerset Hills Hotel&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[Remember to sign up for great upcoming events! &nbsp;Information flyers and forms are found on the Flyers and&nbsp;Forms page of this website.]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

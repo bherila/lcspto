@@ -1,0 +1,15 @@
+<item id="91" name="" parent="78" title="Beginning of School Year Schedule Reminders" zoneName="" templateKey="News" state="16" created="02/12/2013 04:06:30" updated="10/15/2014 23:50:02" published="08/25/2013 05:06:38" expires="" sortOrder="-485" url="/ContentPages/Index?n2page=91" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="18" ancestralTrail="/5/16/72/78/" alteredPermissions="0" childState="2"><details><detail name="Author" typeName="System.String, mscorlib" meta="" /><detail name="Keywords" typeName="System.String, mscorlib" meta="" /><detail name="Description" typeName="System.String, mscorlib" meta="" /><detail name="SeoTitle" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;p&gt;&lt;u&gt;We hope you had a great summer and are looking forward to a wonderful school year!&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;Reminders for the new school year schedule:&lt;br /&gt;
+Staff ONLY reports on 9/4 and 9/6 (holiday 9/5).&lt;br /&gt;
+Meet Your Teacher is on 9/6 2-3pm&lt;br /&gt;
+FIRST DAY OF SCHOOL&amp;nbsp;- 9/9&lt;br /&gt;
+NEW HOURS FOR SCHOOL - 8:45am - 3:15pm&lt;/p&gt;
+
+&lt;p&gt;Watch your email for information on room parent signups, PTO committee signups and PTO pledge drive. &amp;nbsp;Please volunteer and participate - is makes for a much richer experience for both you and your child/children.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+]]></detail><detail name="Summary_ManualSummary" typeName="System.Boolean, mscorlib" meta="">True</detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[We hope you had a great summer and are looking forward to a wonderful school year!
+
+Reminders for the new school year schedule:
+Staff ONLY reports on 9/4 and 9/6 (holiday 9/5).]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

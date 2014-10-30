@@ -1,0 +1,23 @@
+<item id="75" name="2014-15-school-year-starts" parent="72" title="2014-15 School Year Starts!" zoneName="" templateKey="News" state="16" created="08/24/2014 04:58:49" updated="10/15/2014 23:49:53" published="08/24/2014 04:56:19" expires="" sortOrder="-10" url="/ContentPages/Index?n2page=75" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="2" ancestralTrail="/5/16/72/" alteredPermissions="0" childState="2"><details><detail name="SeoTitle" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;p&gt;Beginning of year events:&lt;/p&gt;
+
+&lt;p&gt;Teacher placement letters - 8/25&lt;/p&gt;
+
+&lt;p&gt;New Family Orientation - 8/26, 1-2:30pm&lt;/p&gt;
+
+&lt;p&gt;Meet your teacher - 9/3, 2-3pm&lt;/p&gt;
+
+&lt;p&gt;First day of school - 9/4, 8:45am-3:15pm&lt;/p&gt;
+
+&lt;p&gt;PTO Welcome Back Coffee - 9/4,&amp;nbsp;9am LCPC&lt;/p&gt;
+]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[Beginning of year events:
+
+Teacher placement letters - 8/25
+
+New Family Orientation - 8/26, 1-2:30pm
+
+Meet your teacher - 9/3, 2-3pm
+
+First day of school - 9/4, 8:45am-3:15pm
+
+PTO Welcome Back Coffee - 9/4,&nbsp;9am LCPC
+]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

@@ -1,0 +1,16 @@
+<item id="74" name="september-events" parent="72" title="September Events!" zoneName="" templateKey="News" state="16" created="09/06/2014 05:43:39" updated="10/15/2014 23:49:52" published="09/06/2014 05:39:14" expires="" sortOrder="-20" url="/ContentPages/Index?n2page=74" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="17" ancestralTrail="/5/16/72/" alteredPermissions="0" childState="2"><details><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;p&gt;&lt;u&gt;&lt;strong&gt;Please join us for&amp;nbsp;the LCS PTO Family Pizza Night!&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p style=&quot;margin-left:40px&quot;&gt;Friday, September 19, 2014, 5pm-7pm.&lt;br /&gt;
+Please send in your &lt;a href=&quot;http://libertycornerpto.org/flyers-and-forms/pizza-night-flyer-form&quot;&gt;pizza&amp;nbsp;order form&lt;/a&gt; by September 15th.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Schedule reminders:&lt;/u&gt;&lt;br /&gt;
+9/15/14 - Pizza Night orders due (click &lt;a href=&quot;http://libertycornerpto.org/flyers-and-forms/pizza-night-flyer-form&quot;&gt;here &lt;/a&gt;for flyer/form)&lt;br /&gt;
+9/16/14 -&amp;nbsp;Back to School Night (details &lt;a href=&quot;http://www.bernardsboe.com/LibertyCornerElementarySchool/Fridayfolder.aspx&quot;&gt;here&lt;/a&gt;)&lt;br /&gt;
+&lt;small&gt;For your convenience, LCS PTO Pledge Drive forms and donations may be returned at Back to School Night&lt;/small&gt;&lt;br /&gt;
+9/19/14 - LCA PTO Family Pizza Night&lt;br /&gt;
+9/24/14 - Early Dismissal (12:45pm)&lt;br /&gt;
+9/25/14 - No school (Rosh Hashanah)&lt;/p&gt;
+]]></detail><detail name="ParentID" typeName="System.Int32, mscorlib" meta="">24</detail><detail name="VersionKey" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[d646bc10-2821-4617-80be-f310c2cadcbd]]></detail></details><detailCollections><collection name="TrackedLinks"><detail name="TrackedLinks" typeName="N2.Details.IMultipleValue, N2" meta="Text"><value key="Bool">True</value><value key="Int">191</value><value key="Link">0</value><value key="String" encoded="True"><![CDATA[http://libertycornerpto.org/flyers-and-forms/pizza-night-flyer-form]]></value></detail><detail name="TrackedLinks" typeName="N2.Details.IMultipleValue, N2" meta="Text"><value key="Bool">True</value><value key="Int">398</value><value key="Link">0</value><value key="String" encoded="True"><![CDATA[http://libertycornerpto.org/flyers-and-forms/pizza-night-flyer-form]]></value></detail><detail name="TrackedLinks" typeName="N2.Details.IMultipleValue, N2" meta="Text"><value key="Bool">True</value><value key="Int">553</value><value key="Link">0</value><value key="String" encoded="True"><![CDATA[http://www.bernardsboe.com/LibertyCornerElementarySchool/Fridayfolder.aspx]]></value></detail></collection></detailCollections><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[Please join us for&nbsp;the LCS PTO Family Pizza Night!
+
+Friday, September 19, 2014, 5pm-7pm.
+Please send in your pizza&nbsp;order form by September 15th.]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

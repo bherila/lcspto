@@ -1,0 +1,81 @@
+<item id="10" name="" parent="8" title="" zoneName="PostContent" templateKey="Index" state="16" created="08/12/2012 07:07:25" updated="10/15/2014 23:49:35" published="08/12/2012 07:07:25" expires="" sortOrder="-10" url="/ContentPages/Index?n2page=8&amp;n2item=10" visible="True" savedBy="admin" typeName="" discriminator="ContentPart" versionIndex="1" ancestralTrail="/5/8/" alteredPermissions="0" childState="2"><details><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;h2&gt;&amp;nbsp;&lt;/h2&gt;
+
+&lt;h2&gt;Your PTO At Work&lt;/h2&gt;
+
+&lt;p&gt;Through the support of the parents of Liberty Corner School, the PTO is able to provide a wide range of programs to enhance the LCS community and to enrich our children&amp;rsquo;s educational experience.&amp;nbsp; The following is a listing of much of what your PTO volunteers and donations accomplished in the 2012-2013 school year.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Grade Specific Enrichment:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;High Touch/High Tech Science Programs
+	&lt;ul&gt;
+		&lt;li&gt;&lt;em&gt;Insectology&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;What&amp;rsquo;s the Matter&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Forensic Fun&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Chemical Fun&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Edison&amp;rsquo;s Workshop&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Rainforest Safari&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Global Fever&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Green Machine&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Dig It&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Silly Cells&lt;/em&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Jenkinson&amp;rsquo;s Penguins&lt;/li&gt;
+	&lt;li&gt;Visit from the Liberty Corner Fire Company&lt;/li&gt;
+	&lt;li&gt;Dinosaur Writing Program&lt;/li&gt;
+	&lt;li&gt;Environmental Education Center&amp;rsquo;s Basically Bugs Program&lt;/li&gt;
+	&lt;li&gt;The Dirtmeister&lt;/li&gt;
+	&lt;li&gt;Lenape Lifeways&lt;/li&gt;
+	&lt;li&gt;Celebrate Your State&lt;/li&gt;
+	&lt;li&gt;History&amp;rsquo;s Alive with Thomas Edison&lt;/li&gt;
+	&lt;li&gt;Poet Residency&lt;/li&gt;
+	&lt;li&gt;AAA Map Reading&lt;/li&gt;
+	&lt;li&gt;Kit&amp;rsquo;s Interactive Theatre Programs
+	&lt;ul&gt;
+		&lt;li&gt;&lt;em&gt;Mother Nature&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;American Revolution&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Pioneer Travel&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Civil War&lt;/em&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;All-School Enrichment:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Traditions of India&lt;/li&gt;
+	&lt;li&gt;A Tribute to Martin Luther King, Jr.&lt;/li&gt;
+	&lt;li&gt;Character Education from Motivational Productions&lt;/li&gt;
+	&lt;li&gt;Wizards of Words Author Visits
+	&lt;ul&gt;
+		&lt;li&gt;&lt;em&gt;Daniel Kirk&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Trinka Hakes Noble&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;Lauren Tarshis&lt;/em&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Cultural Arts Night&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Other PTO Events:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Pizza Night&lt;/li&gt;
+	&lt;li&gt;Halloween Festivity&lt;/li&gt;
+	&lt;li&gt;Kit&amp;rsquo;s Interactive Theatre&amp;rsquo;s Sleepy Hollow Halloween&lt;/li&gt;
+	&lt;li&gt;Schoolhouse Rock &amp;ndash; Live!&lt;/li&gt;
+	&lt;li&gt;Staff Luncheon&lt;/li&gt;
+	&lt;li&gt;Buddies and Books&lt;/li&gt;
+	&lt;li&gt;Father-Daughter Sweetheart Dance&lt;/li&gt;
+	&lt;li&gt;Mother-Son Bowling&lt;/li&gt;
+	&lt;li&gt;Battle of the Books&lt;/li&gt;
+	&lt;li&gt;Trial of the Big Bad Wolf&lt;/li&gt;
+	&lt;li&gt;Spring Social&lt;/li&gt;
+	&lt;li&gt;Family Fun Walk and Run&lt;/li&gt;
+	&lt;li&gt;5&lt;sup&gt;th&lt;/sup&gt; Grade Celebration and Yearbook&lt;/li&gt;
+	&lt;li&gt;Field Day&lt;/li&gt;
+	&lt;li&gt;Bubblemania&lt;/li&gt;
+	&lt;li&gt;Math Magic&lt;/li&gt;
+	&lt;li&gt;Teacher Appreciation Events&lt;/li&gt;
+&lt;/ul&gt;
+]]></detail><detail name="VersionKey" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[81c8a1e1-94a4-4690-ad2c-d5b62e81e042]]></detail></details><detailCollections /><children /><authorizations /><properties /></item>

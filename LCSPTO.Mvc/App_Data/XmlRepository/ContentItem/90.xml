@@ -1,0 +1,8 @@
+<item id="90" name="sign-up-for-pizza-night" parent="78" title="Sign up for Pizza Night!" zoneName="" templateKey="News" state="16" created="09/18/2013 14:04:52" updated="10/15/2014 23:50:02" published="09/18/2013 13:58:01" expires="" sortOrder="-495" url="/ContentPages/Index?n2page=90" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="0" ancestralTrail="/5/16/72/78/" alteredPermissions="0" childState="2"><details><detail name="SeoTitle" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;p&gt;Please join us for our annual back-to-school event: Family Pizza Night!&lt;br /&gt;
+Friday, September 27, 2013, 5&amp;nbsp;&amp;ndash; 7&amp;nbsp;PM, behind the school.&lt;/p&gt;
+
+&lt;p&gt;Please&amp;nbsp;see the flyer in the Flyers and Forms webpage for details and to order your pizza.&lt;/p&gt;
+]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[Please join us for our annual back-to-school event: Family Pizza Night!
+Friday, September 27, 2013, 5&nbsp;&ndash; 7&nbsp;PM, behind the school.
+
+Please&nbsp;see the flyer in the Flyers and Forms webpage for details and to order your pizza.]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

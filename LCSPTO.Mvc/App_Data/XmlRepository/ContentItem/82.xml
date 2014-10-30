@@ -1,0 +1,18 @@
+<item id="82" name="march-school-schedule-and-events" parent="78" title="March School Schedule and Events" zoneName="" templateKey="News" state="16" created="03/14/2014 18:57:58" updated="10/15/2014 23:49:57" published="03/14/2014 18:27:26" expires="" sortOrder="-575" url="/ContentPages/Index?n2page=82" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="1" ancestralTrail="/5/16/72/78/" alteredPermissions="0" childState="2"><details><detail name="SeoTitle" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;p&gt;March 17, 18, 20 --- Wizards of Words&lt;/p&gt;
+
+&lt;p&gt;March 25 through March 28 --- 12:45 Dismissal - Parent-Teacher Conferences&lt;/p&gt;
+
+&lt;p&gt;March 25 through March 28 --- Spring Book Fair&lt;/p&gt;
+
+&lt;p&gt;March 25 --- Battle of the Books 5th Grade&lt;/p&gt;
+
+&lt;p&gt;March 26 --- Battle of the Books 4th Grade&lt;/p&gt;
+]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[March 17, 18, 20 --- Wizards of Words
+
+March 25 through March 28 --- 12:45 Dismissal - Parent-Teacher Conferences
+
+March 25 through March 28 --- Spring Book Fair
+
+March 25 --- Battle of the Books 5th Grade
+
+March 26 --- Battle of the Books 4t]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

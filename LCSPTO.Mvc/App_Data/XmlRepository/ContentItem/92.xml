@@ -1,0 +1,9 @@
+<item id="92" name="" parent="78" title="HAVE A GREAT SUMMER!!!" zoneName="" templateKey="News" state="16" created="02/12/2013 04:06:30" updated="10/15/2014 23:50:03" published="06/29/2013 17:06:38" expires="" sortOrder="-475" url="/ContentPages/Index?n2page=92" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="16" ancestralTrail="/5/16/72/78/" alteredPermissions="0" childState="2"><details><detail name="Author" typeName="System.String, mscorlib" meta="" /><detail name="Keywords" typeName="System.String, mscorlib" meta="" /><detail name="Description" typeName="System.String, mscorlib" meta="" /><detail name="SeoTitle" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;p&gt;&lt;u&gt;HAVE A GREAT SUMMER!! SEE YOU IN THE FALL!!&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;Watch your email toward the end of the summer for information on room parent signups, PTO committee signups and PTO pledge drive.&lt;br /&gt;
+Also, please ensure your directory information is up to date - watch for an email soon to update it online.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[HAVE A GREAT SUMMER!! SEE YOU IN THE FALL!!
+
+Watch your email toward the end of the summer for information on room parent signups, PTO committee signups and PTO pledge drive.]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

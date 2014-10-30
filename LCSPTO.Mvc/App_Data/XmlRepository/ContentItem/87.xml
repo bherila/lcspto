@@ -1,0 +1,13 @@
+<item id="87" name="october-reminders" parent="78" title="October Reminders" zoneName="" templateKey="News" state="16" created="10/19/2013 16:47:06" updated="10/15/2014 23:50:00" published="10/19/2013 16:44:37" expires="" sortOrder="-525" url="/ContentPages/Index?n2page=87" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="0" ancestralTrail="/5/16/72/78/" alteredPermissions="0" childState="2"><details><detail name="SeoTitle" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;ul&gt;
+	&lt;li&gt;Teacher Conferences 10/22 through&amp;nbsp;10/25 -&amp;nbsp;&lt;strong&gt;EARLY DISMISSAL AT 12:45&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please see Flyers and Forms page&amp;nbsp;for details and&amp;nbsp;signup info for events below:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Battle of the Books Kick-offs 10/22 &amp;amp; 10/23 (grades 4 &amp;amp; 5)&lt;/li&gt;
+	&lt;li&gt;Trial of the Big Bad Wolf Sign-Up (grade 3)&lt;/li&gt;
+	&lt;li&gt;Halloween Festivity 10/25&lt;/li&gt;
+&lt;/ul&gt;
+]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[
+	Teacher Conferences 10/22 through&nbsp;10/25 -&nbsp;EARLY DISMISSAL AT 12:45.]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

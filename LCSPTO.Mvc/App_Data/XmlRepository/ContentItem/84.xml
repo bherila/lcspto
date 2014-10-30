@@ -1,0 +1,26 @@
+<item id="84" name="winter-concerts-upcoming-event-signups" parent="78" title="Winter Concerts - Upcoming Event Signups!" zoneName="" templateKey="News" state="16" created="01/08/2014 05:05:38" updated="10/15/2014 23:49:58" published="01/08/2014 04:58:57" expires="" sortOrder="-555" url="/ContentPages/Index?n2page=84" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="2" ancestralTrail="/5/16/72/78/" alteredPermissions="0" childState="2"><details><detail name="SeoTitle" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;p&gt;&lt;u&gt;See our very own LCS students perform at Ridge High Performing Arts Center:&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Jan 16 - Band and Chorus&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Jan 23 - Strings&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;(Parents of performing students - remember to send in permission slips.)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Remember to sign up for great upcoming events!&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;2/7 - Sweetheart Dance for Dads and their Daughters&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;3/1 - Mother-Son Bowling&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;3/8 - Spring Social (info coming soon)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[See our very own LCS students perform at Ridge High Performing Arts Center:
+
+Jan 16 - Band and Chorus
+
+Jan 23 - Strings
+
+(Parents of performing students - remember to send in permission slips.]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

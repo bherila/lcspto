@@ -1,0 +1,3 @@
+<item id="6" name="" parent="5" title="" zoneName="News" templateKey="Index" state="16" created="10/15/2014 22:56:19" updated="10/15/2014 23:49:35" published="10/15/2014 22:57:36" expires="" sortOrder="-40" url="/StartPage/Index?n2page=5&amp;n2item=6" visible="True" savedBy="admin" typeName="" discriminator="ContentPart" versionIndex="80" ancestralTrail="/5/" alteredPermissions="0" childState="2"><details><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+]]></detail><detail name="VersionKey" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[6ead8a93-7b32-468f-b339-b8948188412e]]></detail></details><detailCollections /><children /><authorizations /><properties /></item>

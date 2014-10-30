@@ -1,0 +1,12 @@
+<item id="73" name="oct" parent="72" title="October!" zoneName="" templateKey="News" state="16" created="09/29/2014 18:30:51" updated="10/15/2014 23:49:52" published="09/29/2014 18:35:16" expires="" sortOrder="-30" url="/ContentPages/Index?n2page=73" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="4" ancestralTrail="/5/16/72/" alteredPermissions="0" childState="2"><details><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;h2 style=&quot;font-style:italic&quot;&gt;&lt;u&gt;&lt;strong&gt;Save the Date for our Annual Halloween Celebration!&lt;/strong&gt;&lt;/u&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday, October 24 4-6 PM on the playground behind LCS!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our NEW family Halloween event. Come when you can to enjoy various activities, snacks and CANDY&amp;nbsp;in a Pizza Night/Field Day type setting.&lt;/p&gt;
+
+&lt;p&gt;Children must be accompanied by an adult.&amp;nbsp;&lt;/p&gt;
+]]></detail><detail name="ParentID" typeName="System.Int32, mscorlib" meta="">24</detail><detail name="VersionKey" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[73c01c83-71fd-4f5e-aa6f-72736b1687b3]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[Save the Date for our Annual Halloween Celebration!
+
+Friday, October 24 4-6 PM on the playground behind LCS!
+
+Join our NEW family Halloween event.]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

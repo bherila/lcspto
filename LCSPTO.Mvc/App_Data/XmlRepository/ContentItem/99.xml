@@ -1,0 +1,11 @@
+<item id="99" name="" parent="78" title="Buddies and Books POSTPONED! Sign up for the Spring Social!" zoneName="" templateKey="News" state="16" created="02/27/2013 05:15:32" updated="10/15/2014 23:50:08" published="03/07/2013 02:10:17" expires="" sortOrder="-405" url="/ContentPages/Index?n2page=99" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="7" ancestralTrail="/5/16/72/78/" alteredPermissions="0" childState="2"><details><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;b&gt;Due to the impending storm, the Buddies and Books Caf&#233; evening has been postponed.  The rescheduled date is Monday, March 18, 2013 at 6:30.&lt;/b&gt;  If you did not make a reservation and are able to attend, please see the form on the Flyers and Forms page.
+&lt;p&gt;
+&lt;p&gt;
+Our annual parents event is coming up soon!&lt;p&gt;
+&lt;center&gt;
+The theme for this year&#39;s Spring Social is&lt;br&gt;&lt;I&gt;Disco - We&#39;re Going to Party Like it&#39;s 1977&lt;/I&gt;&lt;br&gt;
+Saturday, March 23rd, 2013&lt;p&gt;
+7pm to 11pm&lt;p&gt;
+Fiddler&#39;s Elbow Country Club, Bedminster&lt;p&gt;
+&lt;/center&gt;
+Remember to sign up (see form under Flyers and Forms) by March 15th.]]></detail><detail name="ParentID" typeName="System.Int32, mscorlib" meta="">24</detail><detail name="VersionKey" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[26bba5b9-63f0-4eaf-906c-0223ab573222]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[Due to the impending storm, the Buddies and Books Café evening has been postponed.  The rescheduled date is Monday, March 18, 2013 at 6:30.  If you did not make a reservation and are able to attend, please see the form on the Flyers and Forms page.]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

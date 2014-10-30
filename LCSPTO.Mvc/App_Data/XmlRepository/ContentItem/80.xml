@@ -1,0 +1,26 @@
+<item id="80" name="nj-ask-testing-and-may-events" parent="78" title="NJ ASK Testing and May Events" zoneName="" templateKey="News" state="16" created="05/09/2014 05:10:56" updated="10/15/2014 23:49:56" published="05/09/2014 04:50:02" expires="" sortOrder="-595" url="/ContentPages/Index?n2page=80" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="2" ancestralTrail="/5/16/72/78/" alteredPermissions="0" childState="2"><details><detail name="SeoTitle" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;The schedule for NJ ASK testing is as follows:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Grade&amp;nbsp;5:&amp;nbsp;May&amp;nbsp;5-8&amp;nbsp;&amp;nbsp;8:45AM -&amp;nbsp;11:15AM&amp;nbsp;&lt;br /&gt;
+Grade&amp;nbsp;4: May&amp;nbsp;12-16&amp;nbsp;&amp;nbsp;8:45AM -&amp;nbsp;11:15AM&lt;br /&gt;
+Grade 3: May&amp;nbsp;12-15&amp;nbsp; 8:45AM -&amp;nbsp;11:15AM&lt;/u&gt;&lt;br /&gt;
+Make-up:&amp;nbsp;May&amp;nbsp;19-22 (Grade 5); May&amp;nbsp;20-24 (Grades&amp;nbsp;3 and&amp;nbsp;4)&lt;br /&gt;
+Please see the LCS website/Friday Folder for more information.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;May Events to Note:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Chorus and Band Concert: May 15&lt;/u&gt; 6:30pm&amp;nbsp;at Ridge High School PAC&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Kindergarten Screening: May 15-16&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Field Day:&amp;nbsp;Thursday, May 29th&lt;/u&gt;&amp;nbsp;(Rain date Friday, May 30th)&lt;br /&gt;
+Volunteers are needed for Field Day. Flyer is on this website and in the Friday Folder.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[
+The schedule for NJ ASK testing is as follows:
+
+Grade&nbsp;5:&nbsp;May&nbsp;5-8&nbsp;&nbsp;8:45AM -&nbsp;11:15AM&nbsp;
+Grade&nbsp;4: May&nbsp;12-16&nbsp;&nbsp;8:45AM -&nbsp;11:15AM
+Grade 3: May&nbsp;12-15&nbsp; 8:45AM -&nbsp;11:15AM
+Make-up:&n]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

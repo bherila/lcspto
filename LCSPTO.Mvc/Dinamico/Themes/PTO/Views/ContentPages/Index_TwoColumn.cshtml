@@ -1,27 +1,27 @@
 ﻿@model Dinamico.Models.ContentPage
 @{
-	Content.Define(re => 
+	Content.Define(re =>
 	{
 		re.Title = "Content page (two column)";
 	});
 }
 
 @section main {
-	<div class="row-fluid">
-		<div class="span12">
+	<div class="@Html.Resources().BootstrapRowClass()">
+		<div class="@Html.Resources().BootstrapColumnClass(12, ResourcesExtensions.BootstrapScreenSize.xs)">
 			@Content.Register.Title().Container("Content").Configure(e => e.CssClass = "entry-title").Display()
 		</div>
 	</div>
-	<div class="row-fluid">
-		<div class="span6">
+	<div class="@Html.Resources().BootstrapRowClass()">
+		<div class="@Html.Resources().BootstrapColumnClass(6, ResourcesExtensions.BootstrapScreenSize.xs)">
 			@{ Html.DroppableZone("PostContent").Render(); }
 		</div>
-		<div class="span6">
+		<div class="@Html.Resources().BootstrapColumnClass(6, ResourcesExtensions.BootstrapScreenSize.xs)">
 			@{ Html.DroppableZone("RightMargin").Render(); }
 		</div>
 	</div>
-	<div class="row-fluid">
-		<div class="span12">
+	<div class="@Html.Resources().BootstrapRowClass()">
+		<div class="@Html.Resources().BootstrapColumnClass(12, ResourcesExtensions.BootstrapScreenSize.xs)">
 			@{ Html.DroppableZone("BelowContent").Render(); }
 		</div>
 	</div>

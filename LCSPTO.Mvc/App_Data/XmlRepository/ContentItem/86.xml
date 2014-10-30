@@ -1,0 +1,15 @@
+<item id="86" name="upcoming-november-events" parent="78" title="Upcoming November Events" zoneName="" templateKey="News" state="16" created="10/31/2013 04:38:10" updated="10/15/2014 23:49:59" published="10/31/2013 04:25:48" expires="" sortOrder="-535" url="/ContentPages/Index?n2page=86" visible="False" savedBy="admin" typeName="" discriminator="ContentPage" versionIndex="2" ancestralTrail="/5/16/72/78/" alteredPermissions="0" childState="2"><details><detail name="SeoTitle" typeName="System.String, mscorlib" meta="" /><detail name="Text" typeName="System.String, mscorlib" meta="" encoded="True"><![CDATA[&lt;p&gt;Reminder: NJEA Convention&lt;br /&gt;
+November 7 &amp;amp; 8 --&amp;nbsp;Schools closed&lt;/p&gt;
+
+&lt;p&gt;Register for&amp;nbsp;&lt;em&gt;Pocahontas&amp;rsquo; Vision Quest Show&lt;/em&gt;&amp;nbsp;- Tuesday, November 19, 2013 at 5:30pm and 7:00pm&lt;/p&gt;
+
+&lt;p&gt;Reminder: Thanksgiving Break schedule:&lt;br /&gt;
+November 27 -- early dismissal at 12:45&lt;br /&gt;
+November 28 &amp;amp; 29 -- Schools closed&lt;/p&gt;
+]]></detail></details><detailCollections /><children /><authorizations /><properties><property name="Summary" typeName="System.String, mscorlib"><![CDATA[Reminder: NJEA Convention
+November 7 &amp; 8 --&nbsp;Schools closed
+
+Register for&nbsp;Pocahontas&rsquo; Vision Quest Show&nbsp;- Tuesday, November 19, 2013 at 5:30pm and 7:00pm
+
+Reminder: Thanksgiving Break schedule:
+November 27 -- early dismi]]></property><property name="Image" typeName="System.String, mscorlib"><![CDATA[]]></property></properties></item>

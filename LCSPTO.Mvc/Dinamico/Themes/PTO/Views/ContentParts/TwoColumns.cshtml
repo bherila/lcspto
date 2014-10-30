@@ -2,11 +2,11 @@
 
 <section id="fluidGridSystem">
     <div class="container-fluid" style="padding: 0;">
-    <div class="row-fluid columns twocolumns clearfix @((bool)(Content.Data.Separator ?? false) ? "separator" : "")">
-	    <div class="column column1 span6">
+    <div class="row columns twocolumns clearfix @((bool)(Content.Data.Separator ?? false) ? "separator" : "")">
+	    <div class="column column1 col-xs-6">
 		    @{ Html.DroppableZone("Left").Render(); }
 	    </div>
-	    <div class="column column2 span6">
+	    <div class="column column2 col-xs-6">
 		    @{ Html.DroppableZone("Right").Render(); }
 	    </div>
     </div>
